@@ -1,0 +1,68 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFFACD"/>
+  
+  <!-- Sun rays -->
+  <g transform="translate(200, 50)" opacity="0.3">
+    <path d="M 0 0 L 0 -30 M 0 0 L 20 -20 M 0 0 L 30 0 M 0 0 L 20 20 M 0 0 L 0 30 M 0 0 L -20 20 M 0 0 L -30 0 M 0 0 L -20 -20" 
+          stroke="#FFD700" stroke-width="3"/>
+  </g>
+  
+  <!-- Floor -->
+  <rect x="0" y="250" width="400" height="50" fill="#DEB887" opacity="0.5"/>
+  
+  <!-- Allie standing proud -->
+  <g transform="translate(200, 150)">
+    <!-- Body in business outfit -->
+    <ellipse cx="0" cy="30" rx="40" ry="50" fill="#4169E1"/>
+    <!-- Collar -->
+    <path d="M -20 -5 L -15 5 L 15 5 L 20 -5 Z" fill="white"/>
+    <!-- Head -->
+    <circle cx="0" cy="-25" r="35" fill="#FDBCB4"/>
+    <!-- Hair in pigtails -->
+    <circle cx="-25" cy="-30" r="12" fill="#8B4513"/>
+    <circle cx="25" cy="-30" r="12" fill="#8B4513"/>
+    <path d="M -20 -40 Q -10 -45, 0 -43 Q 10 -45, 20 -40" fill="#8B4513" stroke="none"/>
+    <!-- Proud eyes -->
+    <circle cx="-10" cy="-25" r="3" fill="#4682B4"/>
+    <circle cx="10" cy="-25" r="3" fill="#4682B4"/>
+    <!-- Sparkly eyes -->
+    <text x="-15" y="-30" font-family="Arial, sans-serif" font-size="8" fill="#FFD700">✨</text>
+    <text x="15" y="-30" font-family="Arial, sans-serif" font-size="8" fill="#FFD700">✨</text>
+    <!-- Big proud smile -->
+    <path d="M -15 -12 Q 0 -5, 15 -12" stroke="#FF69B4" stroke-width="3" fill="none"/>
+    <!-- Arms - one holding clipboard -->
+    <ellipse cx="-30" cy="20" rx="10" ry="25" fill="#FDBCB4" transform="rotate(-20 -30 20)"/>
+    <ellipse cx="30" cy="20" rx="10" ry="25" fill="#FDBCB4" transform="rotate(20 30 20)"/>
+    <!-- Toy clipboard -->
+    <g transform="translate(40, 10)">
+      <rect x="-15" y="-20" width="30" height="40" fill="#8B4513" stroke="#654321" stroke-width="2" rx="2"/>
+      <rect x="-10" y="-15" width="20" height="30" fill="white"/>
+      <!-- Clip -->
+      <rect x="-5" y="-22" width="10" height="5" fill="#C0C0C0" rx="1"/>
+      <!-- Scribbles on paper -->
+      <path d="M -8 -10 L 8 -10 M -8 -5 L 5 -5 M -8 0 L 8 0 M -8 5 L 3 5" stroke="#FF69B4" stroke-width="1"/>
+    </g>
+    <!-- Legs -->
+    <ellipse cx="-15" cy="70" rx="12" ry="25" fill="#FDBCB4"/>
+    <ellipse cx="15" cy="70" rx="12" ry="25" fill="#FDBCB4"/>
+    <!-- Shoes -->
+    <ellipse cx="-15" cy="90" rx="15" ry="8" fill="#FF69B4"/>
+    <ellipse cx="15" cy="90" rx="15" ry="8" fill="#FF69B4"/>
+  </g>
+  
+  <!-- Name badge -->
+  <g transform="translate(200, 160)">
+    <rect x="-25" y="-5" width="50" height="20" fill="white" stroke="#4169E1" stroke-width="2" rx="3"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4169E1">ALLIE</text>
+    <text x="0" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#FF69B4">Helper</text>
+  </g>
+  
+  <!-- Sparkles around Allie -->
+  <g opacity="0.7">
+    <text x="100" y="100" font-family="Arial, sans-serif" font-size="20" fill="#FFD700">⭐</text>
+    <text x="300" y="120" font-family="Arial, sans-serif" font-size="16" fill="#FFD700">⭐</text>
+    <text x="120" y="200" font-family="Arial, sans-serif" font-size="18" fill="#FFD700">⭐</text>
+    <text x="280" y="180" font-family="Arial, sans-serif" font-size="14" fill="#FFD700">⭐</text>
+  </g>
+</svg>

@@ -1,0 +1,101 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Sun -->
+  <circle cx="350" cy="50" r="30" fill="#FFD700" opacity="0.9"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="200" width="400" height="100" fill="#8FBC8F"/>
+  
+  <!-- Garden bed -->
+  <rect x="50" y="180" width="300" height="80" fill="#654321" stroke="#4B3621" stroke-width="3" rx="5"/>
+  <rect x="60" y="190" width="280" height="60" fill="#8B4513"/>
+  
+  <!-- Carrot plants -->
+  <g transform="translate(100, 210)">
+    <!-- Carrot tops -->
+    <path d="M -5 0 L -7 -15 M -3 0 L -3 -18 M 0 0 L 0 -20 M 3 0 L 3 -18 M 5 0 L 7 -15" stroke="#228B22" stroke-width="3"/>
+    <path d="M -8 -10 L -10 -20 M 8 -10 L 10 -20" stroke="#228B22" stroke-width="2"/>
+  </g>
+  <g transform="translate(150, 210)">
+    <path d="M -5 0 L -7 -15 M -3 0 L -3 -18 M 0 0 L 0 -20 M 3 0 L 3 -18 M 5 0 L 7 -15" stroke="#228B22" stroke-width="3"/>
+    <path d="M -8 -10 L -10 -20 M 8 -10 L 10 -20" stroke="#228B22" stroke-width="2"/>
+  </g>
+  <g transform="translate(200, 210)">
+    <!-- Missing carrot - just a hole -->
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#654321"/>
+  </g>
+  <g transform="translate(250, 210)">
+    <path d="M -5 0 L -7 -15 M -3 0 L -3 -18 M 0 0 L 0 -20 M 3 0 L 3 -18 M 5 0 L 7 -15" stroke="#228B22" stroke-width="3"/>
+    <path d="M -8 -10 L -10 -20 M 8 -10 L 10 -20" stroke="#228B22" stroke-width="2"/>
+  </g>
+  <g transform="translate(300, 210)">
+    <!-- Another missing carrot -->
+    <ellipse cx="0" cy="0" rx="15" ry="8" fill="#654321"/>
+  </g>
+  
+  <!-- Allie the Detective -->
+  <g transform="translate(200, 140)">
+    <!-- Body in detective outfit -->
+    <ellipse cx="0" cy="20" rx="35" ry="40" fill="#8B4513"/>
+    <!-- Detective badge -->
+    <circle cx="-20" cy="10" r="8" fill="#FFD700" stroke="#DAA520" stroke-width="1"/>
+    <text x="-20" y="14" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">D</text>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="28" fill="#FDBCB4"/>
+    <!-- Oversized detective hat -->
+    <ellipse cx="0" cy="-45" rx="45" ry="15" fill="#654321"/>
+    <rect x="-35" y="-45" width="70" height="25" fill="#654321"/>
+    <rect x="-30" y="-35" width="60" height="5" fill="#8B4513"/>
+    <!-- Hair peeking out -->
+    <path d="M -30 -20 Q -25 -25, -20 -20 M 20 -20 Q 25 -25, 30 -20" fill="#8B4513" stroke="#8B4513" stroke-width="2"/>
+    <!-- Investigating eyes -->
+    <circle cx="-8" cy="-20" r="3" fill="#4682B4"/>
+    <circle cx="8" cy="-20" r="3" fill="#4682B4"/>
+    <!-- Determined expression -->
+    <path d="M -10 -10 L 10 -10" stroke="#FF69B4" stroke-width="2" fill="none"/>
+    <!-- Arms - one holding magnifying glass -->
+    <ellipse cx="-25" cy="20" rx="8" ry="20" fill="#FDBCB4" transform="rotate(-30 -25 20)"/>
+    <ellipse cx="30" cy="15" rx="8" ry="25" fill="#FDBCB4" transform="rotate(45 30 15)"/>
+    <!-- Magnifying glass -->
+    <g transform="translate(45, 0)">
+      <circle cx="0" cy="0" r="20" fill="none" stroke="#8B4513" stroke-width="4"/>
+      <circle cx="0" cy="0" r="16" fill="#87CEEB" opacity="0.3"/>
+      <line x1="14" y1="14" x2="25" y2="25" stroke="#8B4513" stroke-width="4"/>
+      <!-- Reflection -->
+      <ellipse cx="-5" cy="-5" rx="8" ry="5" fill="white" opacity="0.5" transform="rotate(-45 -5 -5)"/>
+    </g>
+    <!-- Legs -->
+    <ellipse cx="-15" cy="50" rx="10" ry="20" fill="#FDBCB4"/>
+    <ellipse cx="15" cy="50" rx="10" ry="20" fill="#FDBCB4"/>
+    <!-- Detective shoes -->
+    <ellipse cx="-15" cy="65" rx="12" ry="8" fill="#654321"/>
+    <ellipse cx="15" cy="65" rx="12" ry="8" fill="#654321"/>
+  </g>
+  
+  <!-- Clue notebook -->
+  <g transform="translate(120, 230)">
+    <rect x="-15" y="-20" width="30" height="40" fill="#FFD700" stroke="#DAA520" stroke-width="2" rx="2"/>
+    <rect x="-12" y="-17" width="24" height="34" fill="white"/>
+    <text x="0" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">Clues:</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#333">• Holes</text>
+    <text x="0" y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#333">• Paws?</text>
+    <text x="0" y="16" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#333">• ???</text>
+  </g>
+  
+  <!-- Question marks floating around -->
+  <text x="150" y="100" font-family="Arial, sans-serif" font-size="24" fill="#FFD700" opacity="0.7">?</text>
+  <text x="250" y="90" font-family="Arial, sans-serif" font-size="20" fill="#FFD700" opacity="0.7">?</text>
+  <text x="320" y="110" font-family="Arial, sans-serif" font-size="22" fill="#FFD700" opacity="0.7">?</text>
+  
+  <!-- Fence in background -->
+  <g opacity="0.5">
+    <rect x="0" y="140" width="10" height="60" fill="#8B4513"/>
+    <rect x="20" y="140" width="10" height="60" fill="#8B4513"/>
+    <rect x="40" y="140" width="10" height="60" fill="#8B4513"/>
+    <rect x="350" y="140" width="10" height="60" fill="#8B4513"/>
+    <rect x="370" y="140" width="10" height="60" fill="#8B4513"/>
+    <rect x="390" y="140" width="10" height="60" fill="#8B4513"/>
+  </g>
+</svg>

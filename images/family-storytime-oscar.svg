@@ -1,0 +1,91 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFF0F5"/>
+  
+  <!-- Couch -->
+  <path d="M 50 200 Q 50 180, 70 180 L 330 180 Q 350 180, 350 200 L 350 250 L 50 250 Z" fill="#4682B4"/>
+  <rect x="50" y="240" width="300" height="20" fill="#36648B"/>
+  <!-- Couch cushions -->
+  <ellipse cx="120" cy="210" rx="50" ry="20" fill="#5F9EA0" opacity="0.5"/>
+  <ellipse cx="200" cy="210" rx="50" ry="20" fill="#5F9EA0" opacity="0.5"/>
+  <ellipse cx="280" cy="210" rx="50" ry="20" fill="#5F9EA0" opacity="0.5"/>
+  
+  <!-- Mommy -->
+  <g transform="translate(100, 140)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="30" ry="40" fill="#DDA0DD"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="25" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -20 -30 Q -15 -40, -5 -35 Q 5 -40, 15 -35 Q 20 -35, 20 -25" fill="#8B4513" stroke="none"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="-15" r="2.5" fill="#4682B4"/>
+    <circle cx="8" cy="-15" r="2.5" fill="#4682B4"/>
+    <!-- Smile -->
+    <path d="M -8 -5 Q 0 -2, 8 -5" stroke="#FF69B4" stroke-width="2" fill="none"/>
+    <!-- Arms holding book -->
+    <rect x="-15" y="10" width="30" height="20" fill="#FFD700" stroke="#DAA520" stroke-width="2" rx="2"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#8B4513">BOOK</text>
+  </g>
+  
+  <!-- Daddy -->
+  <g transform="translate(280, 140)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="35" ry="40" fill="#4169E1"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="25" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -20 -35 Q -10 -40, 0 -38 Q 10 -40, 20 -35" fill="#654321" stroke="none"/>
+    <!-- Eyes -->
+    <circle cx="-8" cy="-15" r="2.5" fill="#228B22"/>
+    <circle cx="8" cy="-15" r="2.5" fill="#228B22"/>
+    <!-- Smile -->
+    <path d="M -8 -5 Q 0 -2, 8 -5" stroke="#4169E1" stroke-width="2" fill="none"/>
+    <!-- Arm around family -->
+    <ellipse cx="-30" cy="10" rx="10" ry="25" fill="#FDBCB4" transform="rotate(-45 -30 10)"/>
+  </g>
+  
+  <!-- Allie in the middle -->
+  <g transform="translate(190, 160)">
+    <!-- Body -->
+    <ellipse cx="0" cy="10" rx="25" ry="30" fill="#FFB6C1"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="20" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -15 -25 Q -10 -32, -5 -28 Q 0 -32, 5 -28 Q 10 -32, 15 -25" fill="#8B4513" stroke="none"/>
+    <!-- Excited eyes -->
+    <circle cx="-6" cy="-15" r="2" fill="#4682B4"/>
+    <circle cx="6" cy="-15" r="2" fill="#4682B4"/>
+    <!-- Big smile -->
+    <path d="M -8 -8 Q 0 -4, 8 -8" stroke="#FF69B4" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Oscar sitting with family -->
+  <g transform="translate(190, 210)">
+    <!-- Body -->
+    <ellipse cx="0" cy="5" rx="20" ry="25" fill="#D3D3D3"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-10" rx="15" ry="12" fill="#D3D3D3"/>
+    <!-- Ears perked up listening -->
+    <ellipse cx="-7" cy="-22" rx="5" ry="12" fill="#D3D3D3" transform="rotate(-5 -7 -22)"/>
+    <ellipse cx="7" cy="-22" rx="5" ry="12" fill="#D3D3D3" transform="rotate(5 7 -22)"/>
+    <ellipse cx="-7" cy="-22" rx="3" ry="8" fill="#FFB6C1" transform="rotate(-5 -7 -22)"/>
+    <ellipse cx="7" cy="-22" rx="3" ry="8" fill="#FFB6C1" transform="rotate(5 7 -22)"/>
+    <!-- Attentive eyes -->
+    <circle cx="-5" cy="-10" r="3" fill="black"/>
+    <circle cx="5" cy="-10" r="3" fill="black"/>
+    <circle cx="-4" cy="-11" r="1" fill="white"/>
+    <circle cx="6" cy="-11" r="1" fill="white"/>
+    <!-- Happy nose -->
+    <ellipse cx="0" cy="-5" rx="2" ry="1.5" fill="#FF69B4"/>
+    <!-- Content expression -->
+    <path d="M -3 -3 Q 0 -2, 3 -3" stroke="#FF69B4" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Story sparkles -->
+  <g opacity="0.6">
+    <text x="150" y="100" font-family="Arial, sans-serif" font-size="20" fill="#FFD700">✨</text>
+    <text x="250" y="90" font-family="Arial, sans-serif" font-size="16" fill="#FFD700">✨</text>
+    <text x="320" y="110" font-family="Arial, sans-serif" font-size="18" fill="#FFD700">✨</text>
+  </g>
+</svg>

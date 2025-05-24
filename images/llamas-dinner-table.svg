@@ -1,0 +1,174 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFF8DC"/>
+  
+  <!-- Dining room wall -->
+  <rect x="0" y="0" width="400" height="200" fill="#F0E68C"/>
+  
+  <!-- Picture frame on wall -->
+  <rect x="160" y="30" width="80" height="60" fill="#8B4513" stroke="#654321" stroke-width="3"/>
+  <rect x="170" y="40" width="60" height="40" fill="#87CEEB"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="200" width="400" height="100" fill="#DEB887"/>
+  
+  <!-- Large dinner table -->
+  <ellipse cx="200" cy="180" rx="160" ry="70" fill="#8B4513" stroke="#654321" stroke-width="4"/>
+  <ellipse cx="200" cy="175" rx="150" ry="65" fill="#A0522D"/>
+  
+  <!-- Table legs visible -->
+  <rect x="60" y="180" width="20" height="80" fill="#654321"/>
+  <rect x="320" y="180" width="20" height="80" fill="#654321"/>
+  
+  <!-- Family at table -->
+  <!-- Daddy -->
+  <g transform="translate(100, 120)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="30" ry="35" fill="#4169E1"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="20" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -15 -20 Q -8 -25, 0 -23 Q 8 -25, 15 -20" fill="#654321" stroke="none"/>
+    <!-- Amused eyes -->
+    <circle cx="-6" cy="-5" r="2" fill="#228B22"/>
+    <circle cx="6" cy="-5" r="2" fill="#228B22"/>
+    <!-- Big smile -->
+    <path d="M -8 3 Q 0 8, 8 3" stroke="#4169E1" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Mommy -->
+  <g transform="translate(300, 120)">
+    <!-- Body -->
+    <ellipse cx="0" cy="30" rx="28" ry="35" fill="#DDA0DD"/>
+    <!-- Head -->
+    <circle cx="0" cy="-5" r="20" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -18 -20 Q -13 -28, -5 -23 Q 3 -28, 11 -23 Q 16 -23, 18 -18" fill="#8B4513" stroke="none"/>
+    <!-- Laughing eyes -->
+    <path d="M -8 -5 Q -6 -7, -4 -5" stroke="#4682B4" stroke-width="2" fill="none"/>
+    <path d="M 8 -5 Q 6 -7, 4 -5" stroke="#4682B4" stroke-width="2" fill="none"/>
+    <!-- Laughing mouth -->
+    <ellipse cx="0" cy="5" rx="6" ry="4" fill="#FF69B4" stroke="#FF1493" stroke-width="1"/>
+  </g>
+  
+  <!-- Allie excited -->
+  <g transform="translate(200, 140)">
+    <!-- Body -->
+    <ellipse cx="0" cy="15" rx="20" ry="25" fill="#FFB6C1"/>
+    <!-- Head -->
+    <circle cx="0" cy="-10" r="18" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -15 -22 Q -10 -28, -5 -23 Q 0 -28, 5 -23 Q 10 -28, 15 -22" fill="#8B4513" stroke="none"/>
+    <!-- Excited eyes -->
+    <circle cx="-5" cy="-10" r="2" fill="#4682B4"/>
+    <circle cx="5" cy="-10" r="2" fill="#4682B4"/>
+    <text x="-10" y="-15" font-family="Arial, sans-serif" font-size="6" fill="#FFD700">✨</text>
+    <text x="10" y="-15" font-family="Arial, sans-serif" font-size="6" fill="#FFD700">✨</text>
+    <!-- Huge smile -->
+    <path d="M -8 -2 Q 0 2, 8 -2" stroke="#FF69B4" stroke-width="2" fill="none"/>
+    <!-- Clapping hands -->
+    <ellipse cx="-15" cy="10" rx="5" ry="8" fill="#FDBCB4" transform="rotate(-30 -15 10)"/>
+    <ellipse cx="15" cy="10" rx="5" ry="8" fill="#FDBCB4" transform="rotate(30 15 10)"/>
+  </g>
+  
+  <!-- Three llamas at table -->
+  <!-- First llama -->
+  <g transform="translate(60, 90)">
+    <!-- Body sitting -->
+    <ellipse cx="0" cy="50" rx="30" ry="40" fill="#F5DEB3"/>
+    <!-- Neck -->
+    <rect x="-12" y="0" width="24" height="50" fill="#F5DEB3"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="18" ry="20" fill="#F5DEB3"/>
+    <!-- Fluffy fur -->
+    <ellipse cx="0" cy="-28" rx="15" ry="8" fill="#FFF8DC"/>
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-28" rx="4" ry="10" fill="#F5DEB3" transform="rotate(-20 -10 -28)"/>
+    <ellipse cx="10" cy="-28" rx="4" ry="10" fill="#F5DEB3" transform="rotate(20 10 -28)"/>
+    <!-- Polite eating eyes -->
+    <circle cx="-6" cy="-15" r="2.5" fill="black"/>
+    <circle cx="6" cy="-15" r="2.5" fill="black"/>
+    <!-- Bow tie -->
+    <g transform="translate(0, 5)">
+      <path d="M -10 0 Q -10 -4, -6 -4 Q -2 -4, -2 0 Q -2 4, -6 4 Q -10 4, -10 0" fill="#FF0000"/>
+      <path d="M 10 0 Q 10 -4, 6 -4 Q 2 -4, 2 0 Q 2 4, 6 4 Q 10 4, 10 0" fill="#FF0000"/>
+      <rect x="-2" y="-2" width="4" height="4" fill="#8B0000"/>
+    </g>
+    <!-- Napkin tucked in -->
+    <rect x="-8" y="15" width="16" height="20" fill="white" stroke="#DDD" stroke-width="1"/>
+  </g>
+  
+  <!-- Second llama -->
+  <g transform="translate(340, 90)">
+    <!-- Body sitting -->
+    <ellipse cx="0" cy="50" rx="30" ry="40" fill="#DEB887"/>
+    <!-- Neck -->
+    <rect x="-12" y="0" width="24" height="50" fill="#DEB887"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-15" rx="18" ry="20" fill="#DEB887"/>
+    <!-- Fluffy fur -->
+    <ellipse cx="0" cy="-28" rx="15" ry="8" fill="#FFDEAD"/>
+    <!-- Ears -->
+    <ellipse cx="-10" cy="-28" rx="4" ry="10" fill="#DEB887" transform="rotate(-20 -10 -28)"/>
+    <ellipse cx="10" cy="-28" rx="4" ry="10" fill="#DEB887" transform="rotate(20 10 -28)"/>
+    <!-- Happy eyes -->
+    <circle cx="-6" cy="-15" r="2.5" fill="black"/>
+    <circle cx="6" cy="-15" r="2.5" fill="black"/>
+    <!-- Bow tie -->
+    <g transform="translate(0, 5)">
+      <path d="M -10 0 Q -10 -4, -6 -4 Q -2 -4, -2 0 Q -2 4, -6 4 Q -10 4, -10 0" fill="#4169E1"/>
+      <path d="M 10 0 Q 10 -4, 6 -4 Q 2 -4, 2 0 Q 2 4, 6 4 Q 10 4, 10 0" fill="#4169E1"/>
+      <rect x="-2" y="-2" width="4" height="4" fill="#191970"/>
+    </g>
+    <!-- Napkin -->
+    <rect x="-8" y="15" width="16" height="20" fill="white" stroke="#DDD" stroke-width="1"/>
+  </g>
+  
+  <!-- Third llama (standing because too tall) -->
+  <g transform="translate(250, 50)">
+    <!-- Body -->
+    <ellipse cx="0" cy="60" rx="25" ry="35" fill="#D2B48C"/>
+    <!-- Long neck -->
+    <rect x="-10" y="10" width="20" height="50" fill="#D2B48C"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-5" rx="15" ry="18" fill="#D2B48C"/>
+    <!-- Fluffy fur -->
+    <ellipse cx="0" cy="-18" rx="13" ry="7" fill="#FFE4B5"/>
+    <!-- Ears -->
+    <ellipse cx="-8" cy="-18" rx="3" ry="8" fill="#D2B48C" transform="rotate(-15 -8 -18)"/>
+    <ellipse cx="8" cy="-18" rx="3" ry="8" fill="#D2B48C" transform="rotate(15 8 -18)"/>
+    <!-- Embarrassed eyes -->
+    <circle cx="-5" cy="-5" r="2" fill="black"/>
+    <circle cx="5" cy="-5" r="2" fill="black"/>
+    <!-- Sheepish smile -->
+    <path d="M -5 2 Q 0 4, 5 2" stroke="#8B7355" stroke-width="1.5" fill="none"/>
+    <!-- Bow tie -->
+    <g transform="translate(0, 15)">
+      <path d="M -8 0 Q -8 -3, -5 -3 Q -2 -3, -2 0 Q -2 3, -5 3 Q -8 3, -8 0" fill="#228B22"/>
+      <path d="M 8 0 Q 8 -3, 5 -3 Q 2 -3, 2 0 Q 2 3, 5 3 Q 8 3, 8 0" fill="#228B22"/>
+      <rect x="-2" y="-2" width="4" height="4" fill="#006400"/>
+    </g>
+  </g>
+  
+  <!-- Dinner plates and food -->
+  <ellipse cx="100" cy="160" rx="25" ry="8" fill="white" stroke="#DDD" stroke-width="2"/>
+  <ellipse cx="200" cy="165" rx="20" ry="6" fill="white" stroke="#DDD" stroke-width="2"/>
+  <ellipse cx="300" cy="160" rx="25" ry="8" fill="white" stroke="#DDD" stroke-width="2"/>
+  <ellipse cx="60" cy="155" rx="25" ry="8" fill="white" stroke="#DDD" stroke-width="2"/>
+  <ellipse cx="340" cy="155" rx="25" ry="8" fill="white" stroke="#DDD" stroke-width="2"/>
+  
+  <!-- Salad bowl in center -->
+  <ellipse cx="200" cy="140" rx="35" ry="12" fill="#90EE90" stroke="#228B22" stroke-width="2"/>
+  <path d="M 165 140 Q 165 155, 200 155 Q 235 155, 235 140" fill="#90EE90"/>
+  <!-- Lettuce leaves -->
+  <ellipse cx="185" cy="135" rx="15" ry="8" fill="#98FB98" opacity="0.8"/>
+  <ellipse cx="215" cy="135" rx="15" ry="8" fill="#98FB98" opacity="0.8"/>
+  <ellipse cx="200" cy="130" rx="20" ry="10" fill="#90EE90" opacity="0.8"/>
+  
+  <!-- Speech bubble from llama -->
+  <g transform="translate(60, 40)">
+    <ellipse cx="0" cy="0" rx="40" ry="20" fill="white" stroke="#F5DEB3" stroke-width="2"/>
+    <path d="M 0 15 L 5 20 L -5 20 Z" fill="white" stroke="#F5DEB3" stroke-width="2"/>
+    <text x="0" y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8B7355">Delicious!</text>
+  </g>
+</svg>

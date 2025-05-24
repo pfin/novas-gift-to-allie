@@ -1,0 +1,119 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="250" width="400" height="50" fill="#90EE90"/>
+  
+  <!-- Big tree -->
+  <rect x="250" y="100" width="60" height="150" fill="#8B4513"/>
+  <!-- Tree branches -->
+  <rect x="230" y="120" width="100" height="20" fill="#8B4513" rx="10"/>
+  <rect x="220" y="90" width="80" height="20" fill="#8B4513" rx="10" transform="rotate(-20 260 100)"/>
+  <rect x="260" y="80" width="80" height="20" fill="#8B4513" rx="10" transform="rotate(15 300 90)"/>
+  <!-- Tree foliage -->
+  <circle cx="280" cy="80" r="60" fill="#228B22" opacity="0.9"/>
+  <circle cx="250" cy="100" r="50" fill="#228B22" opacity="0.9"/>
+  <circle cx="310" cy="100" r="50" fill="#228B22" opacity="0.9"/>
+  
+  <!-- Squirrel family in tree -->
+  <!-- Parent squirrel on branch -->
+  <g transform="translate(240, 130)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#8B4513"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="10" fill="#8B4513"/>
+    <!-- Ears -->
+    <path d="M -8 -22 L -6 -28 L -4 -22 M 4 -22 L 6 -28 L 8 -22" fill="#8B4513" stroke="none"/>
+    <!-- Eyes looking down at Allie -->
+    <circle cx="-3" cy="-15" r="2" fill="black"/>
+    <circle cx="3" cy="-15" r="2" fill="black"/>
+    <circle cx="-2" cy="-16" r="0.8" fill="white"/>
+    <circle cx="4" cy="-16" r="0.8" fill="white"/>
+    <!-- Nose -->
+    <circle cx="0" cy="-10" r="1" fill="black"/>
+    <!-- Bushy tail -->
+    <path d="M 10 5 Q 25 0, 30 -10 Q 32 -5, 30 0 Q 25 10, 15 10 Q 10 8, 10 5" fill="#A0522D"/>
+    <!-- Holding half-eaten carrot -->
+    <g transform="translate(-8, -5)">
+      <path d="M 0 0 L 2 8 L -2 8 Z" fill="#FF8C00"/>
+      <path d="M -2 0 Q 0 -2, 2 0" fill="#FF8C00"/>
+    </g>
+  </g>
+  
+  <!-- Baby squirrels -->
+  <g transform="translate(290, 110)">
+    <!-- First baby -->
+    <ellipse cx="-10" cy="0" rx="8" ry="10" fill="#A0522D"/>
+    <circle cx="-10" cy="-8" r="6" fill="#A0522D"/>
+    <path d="M -14 -12 L -13 -16 L -12 -12 M -8 -12 L -7 -16 L -6 -12" fill="#A0522D" stroke="none"/>
+    <circle cx="-12" cy="-8" r="1.5" fill="black"/>
+    <circle cx="-8" cy="-8" r="1.5" fill="black"/>
+    <path d="M -5 2 Q 0 0, 2 -3 Q 3 -1, 2 1 Q 0 4, -3 4 Q -5 3, -5 2" fill="#8B4513"/>
+    
+    <!-- Second baby -->
+    <ellipse cx="10" cy="0" rx="8" ry="10" fill="#A0522D"/>
+    <circle cx="10" cy="-8" r="6" fill="#A0522D"/>
+    <path d="M 6 -12 L 7 -16 L 8 -12 M 12 -12 L 13 -16 L 14 -12" fill="#A0522D" stroke="none"/>
+    <circle cx="8" cy="-8" r="1.5" fill="black"/>
+    <circle cx="12" cy="-8" r="1.5" fill="black"/>
+    <path d="M 15 2 Q 20 0, 22 -3 Q 23 -1, 22 1 Q 20 4, 17 4 Q 15 3, 15 2" fill="#8B4513"/>
+  </g>
+  
+  <!-- Carrot pieces in tree hollow -->
+  <ellipse cx="280" cy="160" rx="15" ry="20" fill="#654321"/>
+  <g transform="translate(280, 160)">
+    <path d="M -5 -5 L -3 3 L -7 3 Z" fill="#FF8C00" transform="rotate(30 -5 -1)"/>
+    <path d="M 3 -3 L 5 5 L 1 5 Z" fill="#FF8C00" transform="rotate(-20 3 1)"/>
+    <path d="M 0 5 L 2 10 L -2 10 Z" fill="#FF8C00"/>
+  </g>
+  
+  <!-- Allie looking up amazed -->
+  <g transform="translate(150, 200)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="35" ry="40" fill="#98FB98"/>
+    <!-- Head tilted up -->
+    <circle cx="0" cy="-20" r="28" fill="#FDBCB4" transform="rotate(-20 0 -20)"/>
+    <!-- Detective hat falling back -->
+    <g transform="translate(10, -45) rotate(-30)">
+      <ellipse cx="0" cy="0" rx="35" ry="12" fill="#654321"/>
+      <rect x="-28" y="0" width="56" height="20" fill="#654321"/>
+      <rect x="-25" y="7" width="50" height="4" fill="#8B4513"/>
+    </g>
+    <!-- Hair -->
+    <path d="M -20 -15 Q -15 -20, -10 -15 Q -5 -20, 0 -15 Q 5 -20, 10 -15 Q 15 -20, 20 -15" fill="#8B4513" stroke="none"/>
+    <!-- Amazed eyes looking up -->
+    <circle cx="-8" cy="-25" r="4" fill="#4682B4"/>
+    <circle cx="8" cy="-25" r="4" fill="#4682B4"/>
+    <!-- Sparkles in eyes -->
+    <text x="-15" y="-30" font-family="Arial, sans-serif" font-size="8" fill="#FFD700">✨</text>
+    <text x="15" y="-30" font-family="Arial, sans-serif" font-size="8" fill="#FFD700">✨</text>
+    <!-- Open mouth in surprise -->
+    <ellipse cx="0" cy="-10" rx="8" ry="6" fill="#FF69B4" stroke="#FF1493" stroke-width="1"/>
+    <!-- Arms pointing up -->
+    <ellipse cx="-30" cy="10" rx="8" ry="25" fill="#FDBCB4" transform="rotate(-60 -30 10)"/>
+    <ellipse cx="30" cy="10" rx="8" ry="25" fill="#FDBCB4" transform="rotate(60 30 10)"/>
+    <!-- Pointing fingers -->
+    <circle cx="-45" cy="-10" r="5" fill="#FDBCB4"/>
+    <circle cx="45" cy="-10" r="5" fill="#FDBCB4"/>
+  </g>
+  
+  <!-- Exclamation mark -->
+  <text x="200" y="120" font-family="Arial, sans-serif" font-size="36" fill="#FFD700" font-weight="bold">!</text>
+  
+  <!-- Speech bubble from Allie -->
+  <g transform="translate(150, 140)">
+    <ellipse cx="0" cy="0" rx="50" ry="25" fill="white" stroke="#98FB98" stroke-width="3"/>
+    <path d="M -15 20 L -5 25 L -10 30 Z" fill="white" stroke="#98FB98" stroke-width="3"/>
+    <text x="0" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#FF69B4">Found them!</text>
+  </g>
+  
+  <!-- Garden in background with missing carrots -->
+  <g transform="translate(50, 240)" opacity="0.5">
+    <rect x="-30" y="0" width="80" height="20" fill="#8B4513"/>
+    <path d="M -20 0 L -22 -10 M -18 0 L -18 -12 M -15 0 L -15 -10" stroke="#228B22" stroke-width="2"/>
+    <ellipse cx="0" cy="5" rx="8" ry="4" fill="#654321"/>
+    <path d="M 15 0 L 13 -10 M 18 0 L 18 -12 M 20 0 L 20 -10" stroke="#228B22" stroke-width="2"/>
+    <ellipse cx="35" cy="5" rx="8" ry="4" fill="#654321"/>
+  </g>
+</svg>

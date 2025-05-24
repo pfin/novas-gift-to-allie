@@ -1,0 +1,143 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFE4B5"/>
+  
+  <!-- Soft sunlight -->
+  <circle cx="350" cy="50" r="35" fill="#FFD700" opacity="0.7"/>
+  <g transform="translate(350, 50)" opacity="0.4">
+    <path d="M 0 0 L 0 -40 M 0 0 L 30 -30 M 0 0 L 40 0 M 0 0 L 30 30 M 0 0 L 0 40 M 0 0 L -30 30 M 0 0 L -40 0 M 0 0 L -30 -30" 
+          stroke="#FFD700" stroke-width="2"/>
+  </g>
+  
+  <!-- Ground -->
+  <ellipse cx="200" cy="280" rx="180" ry="40" fill="#90EE90" opacity="0.8"/>
+  
+  <!-- Tree -->
+  <rect x="280" y="150" width="50" height="100" fill="#8B4513"/>
+  <circle cx="305" cy="130" r="50" fill="#228B22" opacity="0.9"/>
+  
+  <!-- Allie in the center -->
+  <g transform="translate(200, 180)">
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="35" ry="40" fill="#FFB6C1"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="28" fill="#FDBCB4"/>
+    <!-- Hair -->
+    <path d="M -22 -35 Q -17 -42, -10 -37 Q 0 -42, 10 -37 Q 17 -42, 22 -35" fill="#8B4513" stroke="none"/>
+    <!-- Happy, kind eyes -->
+    <circle cx="-8" cy="-20" r="3" fill="#4682B4"/>
+    <circle cx="8" cy="-20" r="3" fill="#4682B4"/>
+    <!-- Hearts in eyes -->
+    <text x="-8" y="-20" font-family="Arial, sans-serif" font-size="8" fill="#FF69B4">♥</text>
+    <text x="8" y="-20" font-family="Arial, sans-serif" font-size="8" fill="#FF69B4">♥</text>
+    <!-- Sweet smile -->
+    <path d="M -12 -10 Q 0 -5, 12 -10" stroke="#FF69B4" stroke-width="2" fill="none"/>
+    <!-- Arms extended offering carrots -->
+    <ellipse cx="-35" cy="15" rx="8" ry="20" fill="#FDBCB4" transform="rotate(-45 -35 15)"/>
+    <ellipse cx="35" cy="15" rx="8" ry="20" fill="#FDBCB4" transform="rotate(45 35 15)"/>
+    <!-- Hands with carrot pieces -->
+    <circle cx="-45" cy="25" r="8" fill="#FDBCB4"/>
+    <circle cx="45" cy="25" r="8" fill="#FDBCB4"/>
+    <!-- Carrot pieces in hands -->
+    <g transform="translate(-45, 25)">
+      <rect x="-3" y="-5" width="6" height="10" fill="#FF8C00" rx="2"/>
+      <rect x="-2" y="-7" width="4" height="2" fill="#228B22"/>
+    </g>
+    <g transform="translate(45, 25)">
+      <rect x="-3" y="-5" width="6" height="10" fill="#FF8C00" rx="2"/>
+      <rect x="-2" y="-7" width="4" height="2" fill="#228B22"/>
+    </g>
+  </g>
+  
+  <!-- Basket of carrots beside Allie -->
+  <g transform="translate(200, 230)">
+    <path d="M -20 0 Q -20 10, -15 15 L 15 15 Q 20 10, 20 0" fill="#8B4513"/>
+    <rect x="-20" y="-5" width="40" height="10" fill="#A0522D"/>
+    <!-- Handle -->
+    <path d="M -15 -5 Q 0 -15, 15 -5" stroke="#8B4513" stroke-width="3" fill="none"/>
+    <!-- Carrots in basket -->
+    <path d="M -10 -3 L -8 5 L -12 5 Z" fill="#FF8C00"/>
+    <path d="M 0 -4 L 2 4 L -2 4 Z" fill="#FF8C00"/>
+    <path d="M 10 -3 L 12 5 L 8 5 Z" fill="#FF8C00"/>
+    <path d="M -5 -2 L -3 6 L -7 6 Z" fill="#FF8C00"/>
+    <path d="M 5 -2 L 7 6 L 3 6 Z" fill="#FF8C00"/>
+  </g>
+  
+  <!-- Squirrel family gathering around -->
+  <!-- Parent squirrel -->
+  <g transform="translate(120, 210)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="18" ry="25" fill="#8B4513"/>
+    <!-- Head -->
+    <circle cx="0" cy="-18" r="12" fill="#8B4513"/>
+    <!-- Ears -->
+    <path d="M -8 -26 L -6 -32 L -4 -26 M 4 -26 L 6 -32 L 8 -26" fill="#8B4513" stroke="none"/>
+    <!-- Grateful eyes -->
+    <circle cx="-4" cy="-18" r="2.5" fill="black"/>
+    <circle cx="4" cy="-18" r="2.5" fill="black"/>
+    <circle cx="-3" cy="-19" r="1" fill="white"/>
+    <circle cx="5" cy="-19" r="1" fill="white"/>
+    <!-- Happy expression -->
+    <path d="M -4 -12 Q 0 -10, 4 -12" stroke="#654321" stroke-width="1" fill="none"/>
+    <!-- Tail -->
+    <path d="M 12 5 Q 28 0, 32 -15 Q 34 -10, 32 -5 Q 28 10, 18 12 Q 12 10, 12 5" fill="#A0522D"/>
+    <!-- Holding carrot piece -->
+    <g transform="translate(-8, -5)">
+      <rect x="-2" y="-3" width="4" height="6" fill="#FF8C00" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Baby squirrels -->
+  <g transform="translate(100, 240)">
+    <!-- First baby -->
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#A0522D"/>
+    <circle cx="0" cy="-8" r="7" fill="#A0522D"/>
+    <path d="M -5 -13 L -4 -17 L -3 -13 M 3 -13 L 4 -17 L 5 -13" fill="#A0522D" stroke="none"/>
+    <circle cx="-2" cy="-8" r="2" fill="black"/>
+    <circle cx="2" cy="-8" r="2" fill="black"/>
+    <path d="M 7 2 Q 15 0, 17 -8 Q 18 -6, 17 -4 Q 15 5, 10 6 Q 7 5, 7 2" fill="#8B4513"/>
+    <!-- Eating carrot -->
+    <rect x="-3" y="-3" width="3" height="4" fill="#FF8C00" rx="0.5"/>
+  </g>
+  
+  <g transform="translate(140, 245)">
+    <!-- Second baby -->
+    <ellipse cx="0" cy="0" rx="10" ry="12" fill="#A0522D"/>
+    <circle cx="0" cy="-8" r="7" fill="#A0522D"/>
+    <path d="M -5 -13 L -4 -17 L -3 -13 M 3 -13 L 4 -17 L 5 -13" fill="#A0522D" stroke="none"/>
+    <circle cx="-2" cy="-8" r="2" fill="black"/>
+    <circle cx="2" cy="-8" r="2" fill="black"/>
+    <path d="M 7 2 Q 15 0, 17 -8 Q 18 -6, 17 -4 Q 15 5, 10 6 Q 7 5, 7 2" fill="#8B4513"/>
+  </g>
+  
+  <!-- Another squirrel approaching -->
+  <g transform="translate(280, 220)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="15" ry="20" fill="#8B4513"/>
+    <!-- Head -->
+    <circle cx="0" cy="-15" r="10" fill="#8B4513"/>
+    <!-- Ears -->
+    <path d="M -7 -22 L -5 -27 L -3 -22 M 3 -22 L 5 -27 L 7 -22" fill="#8B4513" stroke="none"/>
+    <!-- Shy eyes -->
+    <circle cx="-3" cy="-15" r="2" fill="black"/>
+    <circle cx="3" cy="-15" r="2" fill="black"/>
+    <!-- Tail -->
+    <path d="M 10 5 Q 23 0, 26 -12 Q 28 -8, 26 -4 Q 23 8, 15 10 Q 10 8, 10 5" fill="#A0522D"/>
+  </g>
+  
+  <!-- Hearts floating around -->
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="20" fill="#FF69B4" opacity="0.6">♥</text>
+  <text x="250" y="140" font-family="Arial, sans-serif" font-size="16" fill="#FF69B4" opacity="0.6">♥</text>
+  <text x="100" y="180" font-family="Arial, sans-serif" font-size="18" fill="#FF69B4" opacity="0.6">♥</text>
+  <text x="300" y="170" font-family="Arial, sans-serif" font-size="14" fill="#FF69B4" opacity="0.6">♥</text>
+  
+  <!-- Some flowers in grass -->
+  <g opacity="0.7">
+    <circle cx="50" cy="270" r="8" fill="#FFB6C1"/>
+    <circle cx="50" cy="270" r="3" fill="#FFD700"/>
+    <circle cx="350" cy="260" r="8" fill="#DDA0DD"/>
+    <circle cx="350" cy="260" r="3" fill="#FFD700"/>
+    <circle cx="320" cy="275" r="6" fill="#87CEEB"/>
+    <circle cx="320" cy="275" r="2" fill="white"/>
+  </g>
+</svg>
