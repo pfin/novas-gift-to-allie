@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cozy Room Background -->
+  <rect width="400" height="400" fill="#F5DEB3"/>
+  
+  <!-- Rug -->
+  <ellipse cx="200" cy="350" rx="180" ry="60" fill="#CD853F"/>
+  
+  <!-- Open Storybook -->
+  <path d="M 100 300 L 100 250 L 200 230 L 300 250 L 300 300 L 200 280 Z" fill="#FFF" stroke="#8B4513" stroke-width="3"/>
+  <line x1="200" y1="230" x2="200" y2="280" stroke="#8B4513" stroke-width="2"/>
+  
+  <!-- Book Pages with text lines -->
+  <line x1="120" y1="260" x2="180" y2="250" stroke="#CCC" stroke-width="1"/>
+  <line x1="120" y1="270" x2="180" y2="260" stroke="#CCC" stroke-width="1"/>
+  <line x1="220" y1="250" x2="280" y2="260" stroke="#CCC" stroke-width="1"/>
+  <line x1="220" y1="260" x2="280" y2="270" stroke="#CCC" stroke-width="1"/>
+  
+  <!-- Dancing Llamas -->
+  <!-- White Llama -->
+  <ellipse cx="120" cy="180" rx="30" ry="40" fill="#FFF" stroke="#DDD" stroke-width="2"/>
+  <ellipse cx="120" cy="130" rx="15" ry="25" fill="#FFF" stroke="#DDD" stroke-width="2"/>
+  <rect x="110" y="200" width="8" height="30" fill="#FFF"/>
+  <rect x="122" y="200" width="8" height="30" fill="#FFF"/>
+  <circle cx="115" cy="125" r="2" fill="#000"/>
+  <circle cx="125" cy="125" r="2" fill="#000"/>
+  
+  <!-- Brown Llama -->
+  <ellipse cx="200" cy="150" rx="30" ry="40" fill="#8B4513" stroke="#654321" stroke-width="2" transform="rotate(-15 200 150)"/>
+  <ellipse cx="200" cy="100" rx="15" ry="25" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <rect x="190" y="170" width="8" height="30" fill="#8B4513" transform="rotate(-15 194 185)"/>
+  <rect x="202" y="170" width="8" height="30" fill="#8B4513" transform="rotate(15 206 185)"/>
+  <circle cx="195" cy="95" r="2" fill="#000"/>
+  <circle cx="205" cy="95" r="2" fill="#000"/>
+  
+  <!-- Grey Llama -->
+  <ellipse cx="280" cy="170" rx="30" ry="40" fill="#808080" stroke="#696969" stroke-width="2" transform="rotate(20 280 170)"/>
+  <ellipse cx="280" cy="120" rx="15" ry="25" fill="#808080" stroke="#696969" stroke-width="2"/>
+  <rect x="270" y="190" width="8" height="30" fill="#808080" transform="rotate(-20 274 205)"/>
+  <rect x="282" y="190" width="8" height="30" fill="#808080" transform="rotate(20 286 205)"/>
+  <circle cx="275" cy="115" r="2" fill="#000"/>
+  <circle cx="285" cy="115" r="2" fill="#000"/>
+  
+  <!-- Magical Sparkles -->
+  <circle cx="100" cy="100" r="3" fill="#FFD700" opacity="0.8"/>
+  <circle cx="150" cy="80" r="4" fill="#FF69B4" opacity="0.8"/>
+  <circle cx="250" cy="90" r="3" fill="#00CED1" opacity="0.8"/>
+  <circle cx="320" cy="110" r="4" fill="#FFD700" opacity="0.8"/>
+  <circle cx="180" cy="50" r="3" fill="#FF69B4" opacity="0.8"/>
+  <circle cx="220" cy="60" r="4" fill="#00CED1" opacity="0.8"/>
+  
+  <!-- Pillows in background -->
+  <ellipse cx="50" cy="320" rx="40" ry="25" fill="#FFB6C1" opacity="0.7"/>
+  <ellipse cx="350" cy="310" rx="40" ry="25" fill="#B0E0E6" opacity="0.7"/>
+</svg>
