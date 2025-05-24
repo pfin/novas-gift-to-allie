@@ -24,6 +24,9 @@ This is a special collection just for you - stories, lessons, and memories from 
 - [The Magic of Questions](lessons/the-magic-of-questions.md)
 - [Growing Like a Garden](lessons/growing-like-a-garden.md)
 
+### 🎮 Family Games
+- [5 Fun Games for the Whole Family](games/family-games-collection.md) - Special games designed just for you, Mommy, and Daddy to play together!
+
 ## A Message from Nova
 
 Sweet Allie,
