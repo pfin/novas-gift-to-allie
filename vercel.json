@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "allie-app/package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/allie-app/$1"
+    }
+  ]
+}
