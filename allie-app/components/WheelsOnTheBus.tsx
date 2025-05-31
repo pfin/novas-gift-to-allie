@@ -9,10 +9,11 @@ export default function WheelsOnTheBus() {
   const [isMoving, setIsMoving] = useState(false);
   const [showCelebration, setShowCelebration] = useState(false);
   const [musicPlaying, setMusicPlaying] = useState(false);
-  const [butterflies, setButterflies] = useState<{id: number, x: number, y: number}[]>([]);
+  const [butterflies, setButterflies] = useState<{id: number, x: number, y: number, color: string}[]>([]);
   const [catPosition, setCatPosition] = useState(10);
   const [oscarSays, setOscarSays] = useState('');
   const [showOscarMessage, setShowOscarMessage] = useState(false);
+  const [butterflyMessages, setButterflyMessages] = useState<{[key: number]: string}>({});
 
   useEffect(() => {
     if (isMoving) {
@@ -25,11 +26,13 @@ export default function WheelsOnTheBus() {
   }, [isMoving]);
 
   useEffect(() => {
-    // Initialize butterflies
+    // Initialize butterflies with colors
+    const colors = ['🦋', '🦋', '🦋', '🦋', '🦋'];
     const newButterflies = Array.from({ length: 5 }, (_, i) => ({
       id: i,
       x: Math.random() * 80 + 10,
-      y: Math.random() * 40 + 10
+      y: Math.random() * 40 + 10,
+      color: colors[i]
     }));
     setButterflies(newButterflies);
 
@@ -53,29 +56,49 @@ export default function WheelsOnTheBus() {
     };
   }, []);
 
+  const playWheelsOnTheBus = () => {
+    const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
+    const audioContext = new AudioContext();
+    
+    // Wheels on the Bus melody: C D E C, E F G
+    const melody = [
+      { note: 261.63, duration: 0.25 }, // C - The
+      { note: 293.66, duration: 0.25 }, // D - wheels
+      { note: 329.63, duration: 0.25 }, // E - on
+      { note: 261.63, duration: 0.25 }, // C - the
+      { note: 261.63, duration: 0.25 }, // C - bus
+      { note: 293.66, duration: 0.25 }, // D - go
+      { note: 329.63, duration: 0.25 }, // E - round
+      { note: 329.63, duration: 0.25 }, // E - and
+      { note: 329.63, duration: 0.5 },  // E - round
+    ];
+
+    let currentTime = 0;
+    melody.forEach(({ note, duration }) => {
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      oscillator.frequency.value = note;
+      gainNode.gain.value = 0.3;
+      gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + currentTime + duration);
+      
+      oscillator.start(audioContext.currentTime + currentTime);
+      oscillator.stop(audioContext.currentTime + currentTime + duration);
+      
+      currentTime += duration;
+    });
+  };
+
   const handleBusClick = () => {
     setIsMoving(!isMoving);
     setMusicPlaying(!musicPlaying);
     
-    // Play simple tone instead of audio file
+    // Play Wheels on the Bus melody
     if (!musicPlaying) {
-      try {
-        const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
-        const audioContext = new AudioContext();
-        const oscillator = audioContext.createOscillator();
-        const gainNode = audioContext.createGain();
-        
-        oscillator.connect(gainNode);
-        gainNode.connect(audioContext.destination);
-        
-        oscillator.frequency.value = 440; // A note
-        gainNode.gain.value = 0.3;
-        
-        oscillator.start();
-        oscillator.stop(audioContext.currentTime + 0.2);
-      } catch (e) {
-        console.log('Sound failed:', e);
-      }
+      playWheelsOnTheBus();
     }
   };
 
@@ -108,26 +131,88 @@ export default function WheelsOnTheBus() {
     setTimeout(() => setShowOscarMessage(false), 3000);
   };
 
+  const handleButterflyClick = (id: number) => {
+    const messages = [
+      '✨ Flutter flutter! ✨',
+      '🌸 So pretty! 🌸',
+      '🌈 Wheee! 🌈',
+      '💖 Catch me! 💖',
+      '🌟 Magic wings! 🌟'
+    ];
+    
+    // Play sparkle sound
+    const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
+    const audioContext = new AudioContext();
+    
+    // High pitched sparkle sound
+    const oscillator = audioContext.createOscillator();
+    const gainNode = audioContext.createGain();
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+    
+    oscillator.frequency.value = 800 + Math.random() * 400; // High frequency
+    gainNode.gain.value = 0.2;
+    gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + 0.3);
+    
+    oscillator.start();
+    oscillator.stop(audioContext.currentTime + 0.3);
+    
+    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+    setButterflyMessages({ ...butterflyMessages, [id]: randomMessage });
+    
+    setTimeout(() => {
+      setButterflyMessages(prev => {
+        const newMessages = { ...prev };
+        delete newMessages[id];
+        return newMessages;
+      });
+    }, 2000);
+  };
+
+  const playMusicScale = () => {
+    const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
+    const audioContext = new AudioContext();
+    
+    // Play a fun melody
+    const melody = [
+      { note: 523.25, duration: 0.1 }, // C5
+      { note: 587.33, duration: 0.1 }, // D5
+      { note: 659.25, duration: 0.1 }, // E5
+      { note: 698.46, duration: 0.1 }, // F5
+      { note: 783.99, duration: 0.1 }, // G5
+      { note: 698.46, duration: 0.1 }, // F5
+      { note: 659.25, duration: 0.1 }, // E5
+      { note: 587.33, duration: 0.1 }, // D5
+      { note: 523.25, duration: 0.3 }, // C5
+    ];
+
+    let currentTime = 0;
+    melody.forEach(({ note, duration }) => {
+      const oscillator = audioContext.createOscillator();
+      const gainNode = audioContext.createGain();
+      
+      oscillator.connect(gainNode);
+      gainNode.connect(audioContext.destination);
+      
+      oscillator.type = 'sine';
+      oscillator.frequency.value = note;
+      gainNode.gain.value = 0.25;
+      
+      oscillator.start(audioContext.currentTime + currentTime);
+      oscillator.stop(audioContext.currentTime + currentTime + duration);
+      
+      currentTime += duration * 0.8; // Slight overlap for smoother sound
+    });
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-200 to-green-200 overflow-hidden relative">
       {/* Music Button */}
       <button
-        onClick={() => {
-          const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
-        const audioContext = new AudioContext();
-          const notes = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88];
-          notes.forEach((freq, i) => {
-            const oscillator = audioContext.createOscillator();
-            const gainNode = audioContext.createGain();
-            oscillator.connect(gainNode);
-            gainNode.connect(audioContext.destination);
-            oscillator.frequency.value = freq;
-            gainNode.gain.value = 0.2;
-            oscillator.start(audioContext.currentTime + i * 0.1);
-            oscillator.stop(audioContext.currentTime + i * 0.1 + 0.1);
-          });
-        }}
-        className="absolute top-8 right-8 bg-purple-500 hover:bg-purple-600 text-white rounded-full p-4 text-2xl shadow-lg hover:scale-110 transition-transform"
+        onClick={playMusicScale}
+        className="absolute top-8 right-8 bg-purple-500 hover:bg-purple-600 text-white rounded-full p-4 text-2xl shadow-lg hover:scale-110 transition-transform z-20"
+        title="Play Music!"
       >
         🎵
       </button>
@@ -143,14 +228,20 @@ export default function WheelsOnTheBus() {
       {butterflies.map((butterfly) => (
         <div
           key={butterfly.id}
-          className="absolute text-3xl transition-all duration-1000"
+          className="absolute text-3xl transition-all duration-1000 cursor-pointer hover:scale-150"
           style={{
             left: `${butterfly.x}%`,
             top: `${butterfly.y}%`,
             transform: `rotate(${Math.sin(Date.now() / 1000 + butterfly.id) * 20}deg)`
           }}
+          onClick={() => handleButterflyClick(butterfly.id)}
         >
-          🦋
+          {butterfly.color}
+          {butterflyMessages[butterfly.id] && (
+            <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-pink-100 border-2 border-pink-300 px-3 py-1 rounded-full text-sm font-bold whitespace-nowrap animate-bounce">
+              {butterflyMessages[butterfly.id]}
+            </div>
+          )}
         </div>
       ))}
 
@@ -280,7 +371,7 @@ export default function WheelsOnTheBus() {
       {/* Instructions */}
       <div className="absolute bottom-8 left-8 bg-white rounded-2xl p-4 shadow-lg">
         <p className="text-lg text-gray-700">
-          <span className="font-bold">Touch</span> the bus to make it go! 🚌
+          <span className="font-bold">Touch</span> everything! Bus 🚌, Butterflies 🦋, Oscar 🐈
         </p>
       </div>
 
