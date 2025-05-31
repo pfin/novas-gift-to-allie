@@ -11,6 +11,8 @@ export default function WheelsOnTheBus() {
   const [musicPlaying, setMusicPlaying] = useState(false);
   const [butterflies, setButterflies] = useState<{id: number, x: number, y: number}[]>([]);
   const [catPosition, setCatPosition] = useState(10);
+  const [oscarSays, setOscarSays] = useState('');
+  const [showOscarMessage, setShowOscarMessage] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
@@ -56,10 +58,24 @@ export default function WheelsOnTheBus() {
     setIsMoving(!isMoving);
     setMusicPlaying(!musicPlaying);
     
-    if (!musicPlaying && audioRef.current) {
-      audioRef.current.play().catch(e => console.log('Audio play failed:', e));
-    } else if (audioRef.current) {
-      audioRef.current.pause();
+    // Play simple tone instead of audio file
+    if (!musicPlaying) {
+      try {
+        const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+        const oscillator = audioContext.createOscillator();
+        const gainNode = audioContext.createGain();
+        
+        oscillator.connect(gainNode);
+        gainNode.connect(audioContext.destination);
+        
+        oscillator.frequency.value = 440; // A note
+        gainNode.gain.value = 0.3;
+        
+        oscillator.start();
+        oscillator.stop(audioContext.currentTime + 0.2);
+      } catch (e) {
+        console.log('Sound failed:', e);
+      }
     }
   };
 
@@ -76,13 +92,44 @@ export default function WheelsOnTheBus() {
   };
 
   const kidEmojis = ['👧', '👦', '👶', '🧒', '👧🏽'];
+  
+  const handleOscarClick = () => {
+    const messages = [
+      'Meow! Hi Allie! 🐱',
+      'Purr purr purr... 💕',
+      'Let me on the bus! 🚌',
+      'I love you Allie! 😻',
+      'Time for treats? 🐟',
+      'Chase the butterflies! 🦋'
+    ];
+    const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+    setOscarSays(randomMessage);
+    setShowOscarMessage(true);
+    setTimeout(() => setShowOscarMessage(false), 3000);
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-sky-200 to-green-200 overflow-hidden relative">
-      {/* Hidden audio element */}
-      <audio ref={audioRef} loop>
-        <source src="data:audio/wav;base64,UklGRnoGAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YQoGAACBhYqFbF1fdJivrJBhNjVgodDbq2EcBj+a2/LDciUFLIHO8tiJNwgZaLvt559NEAxQp+PwtmMcBjiR1/LMeSwFJHfH8N2QQAoUXrTp66hVFApGn+DyvmwhBTGHzvLYizMLHGq+7+OZURE" type="audio/wav" />
-      </audio>
+      {/* Music Button */}
+      <button
+        onClick={() => {
+          const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+          const notes = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88];
+          notes.forEach((freq, i) => {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            oscillator.frequency.value = freq;
+            gainNode.gain.value = 0.2;
+            oscillator.start(audioContext.currentTime + i * 0.1);
+            oscillator.stop(audioContext.currentTime + i * 0.1 + 0.1);
+          });
+        }}
+        className="absolute top-8 right-8 bg-purple-500 hover:bg-purple-600 text-white rounded-full p-4 text-2xl shadow-lg hover:scale-110 transition-transform"
+      >
+        🎵
+      </button>
 
       {/* Sky and Clouds */}
       <div className="absolute inset-0">
@@ -113,14 +160,20 @@ export default function WheelsOnTheBus() {
 
       {/* Oscar the Cat */}
       <div 
-        className="absolute bottom-48 text-5xl transition-all duration-100"
+        className="absolute bottom-48 text-5xl transition-all duration-100 cursor-pointer"
         style={{ left: `${catPosition}%` }}
+        onClick={handleOscarClick}
       >
         <div className="relative">
-          <div className="animate-bounce">🐈</div>
+          <div className="animate-bounce hover:scale-110 transition-transform">🐈</div>
           <p className="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-white px-2 py-1 rounded text-sm font-bold">
             Oscar!
           </p>
+          {showOscarMessage && (
+            <div className="absolute -top-20 left-1/2 transform -translate-x-1/2 bg-yellow-100 border-2 border-yellow-400 px-4 py-2 rounded-2xl text-base font-medium whitespace-nowrap animate-bounce">
+              {oscarSays}
+            </div>
+          )}
         </div>
       </div>
 
