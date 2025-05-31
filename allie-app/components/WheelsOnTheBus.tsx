@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function WheelsOnTheBus() {
   const [wheelRotation, setWheelRotation] = useState(0);
@@ -13,7 +13,6 @@ export default function WheelsOnTheBus() {
   const [catPosition, setCatPosition] = useState(10);
   const [oscarSays, setOscarSays] = useState('');
   const [showOscarMessage, setShowOscarMessage] = useState(false);
-  const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     if (isMoving) {
@@ -61,7 +60,8 @@ export default function WheelsOnTheBus() {
     // Play simple tone instead of audio file
     if (!musicPlaying) {
       try {
-        const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+        const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
+        const audioContext = new AudioContext();
         const oscillator = audioContext.createOscillator();
         const gainNode = audioContext.createGain();
         
@@ -113,7 +113,8 @@ export default function WheelsOnTheBus() {
       {/* Music Button */}
       <button
         onClick={() => {
-          const audioContext = new (window.AudioContext || (window as any).webkitAudioContext)();
+          const AudioContext = window.AudioContext || (window as unknown as { webkitAudioContext: typeof window.AudioContext }).webkitAudioContext;
+        const audioContext = new AudioContext();
           const notes = [261.63, 293.66, 329.63, 349.23, 392.00, 440.00, 493.88];
           notes.forEach((freq, i) => {
             const oscillator = audioContext.createOscillator();
