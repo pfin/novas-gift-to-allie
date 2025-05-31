@@ -105,7 +105,7 @@ export default function WheelsOnTheBus() {
       {/* UI Controls */}
       <div className="absolute top-8 left-8 right-8 flex justify-between items-start">
         <div className="bg-white rounded-2xl p-6 shadow-lg">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Allie's Bus 🚌</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4">Allie&apos;s Bus 🚌</h2>
           <p className="text-xl text-gray-600 mb-2">
             Kids on the bus: <span className="font-bold text-3xl text-blue-600">{kidCount}</span>
           </p>
