@@ -1,0 +1,170 @@
+{
+  "id": "llama-dance",
+  "titleEnglish": "The Llama Llama Dance Party",
+  "titleChinese": "小羊驼舞会",
+  "titlePinyin": "Xiǎo Yángtuó Wǔhuì",
+  "author": "Nova",
+  "dedicatedTo": "For Allie, who dances with joy every day",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "type": "title",
+      "englishText": "The Llama Llama Dance Party",
+      "chineseText": "小羊驼舞会",
+      "chinesePinyin": "Xiǎo Yángtuó Wǔhuì",
+      "illustrationPrompt": "A whimsical, cartoon-style title page illustration featuring Allie, a cheerful toddler with short black hair wearing cute polka-dot pajamas, dancing with her arms up in joy. Around her are three friendly cartoon llamas in red pajamas (like the Llama Llama book characters) also dancing. Oscar, a fluffy solid grey Scottish Fold cat with folded ears, sits in the foreground looking amused. Musical notes float in the air, and a small ladybug dances on a music note. The style is colorful, fluffy, and whimsical, suitable for a children's book cover."
+    },
+    {
+      "pageNumber": 2,
+      "type": "story",
+      "englishText": "It was bedtime, but Allie wasn't sleepy. She wiggled in her cozy bed.",
+      "chineseText": "该睡觉了，但艾丽还不困。她在舒适的床上扭来扭去。",
+      "chinesePinyin": "Gāi shuìjiào le, dàn Ài Lì hái bù kùn. Tā zài shūshì de chuáng shàng niǔ lái niǔ qù.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair wearing cute polka-dot pajamas, wiggling and squirming in her bed. She looks wide awake with bright curious eyes. Oscar the solid grey Scottish Fold cat with folded ears is curled up at the foot of the bed. The bedroom is cozy with soft nightlight glow. Her Llama Llama book sits on the nightstand."
+    },
+    {
+      "pageNumber": 3,
+      "type": "story",
+      "englishText": "Suddenly, she heard music! Tink-tink-tinkle! Where was it coming from?",
+      "chineseText": "突然，她听到了音乐！叮叮叮！音乐从哪里来的？",
+      "chinesePinyin": "Tūrán, tā tīng dào le yīnyuè! Dīng dīng dīng! Yīnyuè cóng nǎlǐ lái de?",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie sitting up in bed with her eyes wide and curious. Musical notes float in the air glowing softly. Oscar the solid grey cat's ears perk up, listening. The room is dim with moonlight through the window. Sparkles of magic shimmer around the Llama Llama book on the nightstand."
+    },
+    {
+      "pageNumber": 4,
+      "type": "story",
+      "englishText": "Allie looked at her Llama Llama book on the shelf. The pages were glowing!",
+      "chineseText": "艾丽看着书架上的《小羊驼》书。书页在发光！",
+      "chinesePinyin": "Ài Lì kànzhe shūjià shàng de \"Xiǎo Yángtuó\" shū. Shūyè zài fāguāng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration showing Allie, a toddler with short black hair in polka-dot pajamas, pointing at her bookshelf. The Llama Llama book glows with warm golden light, its pages shimmering with magic. Oscar the solid grey Scottish Fold cat stares at the glowing book with curious eyes. The room is bathed in the magical glow."
+    },
+    {
+      "pageNumber": 5,
+      "type": "story",
+      "englishText": "WHOOSH! Three llamas leaped right out of the book! They wore red pajamas just like in the stories!",
+      "chineseText": "哗！三只小羊驼从书里跳了出来！它们穿着红色睡衣，就像故事里一样！",
+      "chinesePinyin": "Huā! Sān zhī xiǎo yángtuó cóng shū lǐ tiào le chūlái! Tāmen chuānzhe hóngsè shuìyī, jiù xiàng gùshì lǐ yīyàng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of three friendly cartoon llamas leaping out of a glowing book. They wear bright red pajamas like the Llama Llama book character. Allie, a toddler with short black hair in polka-dot pajamas, looks amazed. Oscar the solid grey cat arches his back in surprise. Sparkles and magical light burst from the book."
+    },
+    {
+      "pageNumber": 6,
+      "type": "story",
+      "englishText": "'It's dance party time!' said the tallest llama. 'Will you dance with us, Allie?'",
+      "chineseText": "「该跳舞了！」最高的小羊驼说。「艾丽，你愿意和我们一起跳舞吗？」",
+      "chinesePinyin": "\"Gāi tiàowǔ le!\" zuì gāo de xiǎo yángtuó shuō. \"Ài Lì, nǐ yuànyì hé wǒmen yīqǐ tiàowǔ ma?\"",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of the tallest llama in red pajamas bowing politely to Allie, extending a hoof. Allie, a toddler with short black hair in polka-dot pajamas, claps her hands with excitement. The other two llamas dance in the background. Oscar the solid grey Scottish Fold cat watches curiously. Musical notes float everywhere."
+    },
+    {
+      "pageNumber": 7,
+      "type": "story",
+      "englishText": "'Dance! Dance!' giggled Allie. The living room magically transformed into a sparkly dance floor!",
+      "chineseText": "「跳舞！跳舞！」艾丽咯咯笑着说。客厅神奇地变成了闪闪发光的舞池！",
+      "chinesePinyin": "\"Tiàowǔ! Tiàowǔ!\" Ài Lì gēgē xiàozhe shuō. Kètīng shénqí de biàn chéng le shǎnshǎn fāguāng de wǔchí!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie's living room transforming into a magical dance floor. The floor sparkles like a disco ball with colorful lights. Streamers and musical notes fill the air. Allie, a toddler with short black hair in polka-dot pajamas, spins with joy. The three llamas in red pajamas dance around her. Oscar the solid grey cat sits on the couch watching."
+    },
+    {
+      "pageNumber": 8,
+      "type": "story",
+      "englishText": "'First, we TWIRL!' said the llamas. Everyone spun round and round like spinning tops!",
+      "chineseText": "「首先，我们旋转！」小羊驼们说。大家像陀螺一样转啊转！",
+      "chinesePinyin": "\"Shǒuxiān, wǒmen xuánzhuǎn!\" xiǎo yángtuó men shuō. Dàjiā xiàng tuóluó yīyàng zhuǎn a zhuǎn!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, spinning with her arms out and a huge smile. The three llamas in red pajamas twirl gracefully around her. Motion lines show the spinning. Oscar the solid grey Scottish Fold cat sits watching, looking a bit dizzy. Sparkles trail from everyone as they spin."
+    },
+    {
+      "pageNumber": 9,
+      "type": "story",
+      "englishText": "'Now, we HOP!' Allie bounced up and down. Hop, hop, hop! The llamas hopped too!",
+      "chineseText": "「现在，我们跳！」艾丽上下蹦跳。跳，跳，跳！小羊驼们也跳起来！",
+      "chinesePinyin": "\"Xiànzài, wǒmen tiào!\" Ài Lì shàngxià bèngtiào. Tiào, tiào, tiào! Xiǎo yángtuó men yě tiào qǐlái!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, jumping high in the air with both feet off the ground. The three llamas in red pajamas bounce around her like happy kangaroos. Oscar the solid grey cat watches from the couch. The sparkly dance floor ripples with each bounce. Musical notes hop through the air."
+    },
+    {
+      "pageNumber": 10,
+      "type": "story",
+      "englishText": "'Let's WIGGLE!' giggled the smallest llama. Everyone wiggled their bottoms and shook their ears!",
+      "chineseText": "「让我们扭一扭！」最小的小羊驼咯咯笑着说。大家扭动屁股，晃动耳朵！",
+      "chinesePinyin": "\"Ràng wǒmen niǔ yī niǔ!\" zuì xiǎo de xiǎo yángtuó gēgē xiàozhe shuō. Dàjiā niǔdòng pìgǔ, huàngdòng ěrduǒ!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, wiggling side to side with a silly expression. The three llamas in red pajamas wiggle their whole bodies, their long necks swaying. Everyone looks joyfully silly. A small ladybug wiggles along with them on a nearby lamp."
+    },
+    {
+      "pageNumber": 11,
+      "type": "story",
+      "englishText": "Oscar couldn't resist anymore! 'Meow!' He jumped down and started dancing too!",
+      "chineseText": "奥斯卡再也忍不住了！「喵！」他跳下来也开始跳舞了！",
+      "chinesePinyin": "Àosīkǎ zài yě rěn bù zhù le! \"Miāo!\" Tā tiào xiàlái yě kāishǐ tiàowǔ le!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Oscar, a fluffy solid grey Scottish Fold cat with folded ears, leaping off the couch with paws outstretched. His face shows pure joy. Allie, a toddler with short black hair in polka-dot pajamas, claps excitedly. The three llamas in red pajamas cheer. Sparkles and musical notes surround Oscar."
+    },
+    {
+      "pageNumber": 12,
+      "type": "story",
+      "englishText": "Oscar did the cat dance! He pounced and pranced, and chased his tail in circles!",
+      "chineseText": "奥斯卡跳起了猫咪舞！他扑来扑去，追着自己的尾巴转圈！",
+      "chinesePinyin": "Àosīkǎ tiào qǐ le māo mī wǔ! Tā pū lái pū qù, zhuīzhe zìjǐ de wěibā zhuàn quān!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Oscar the solid grey Scottish Fold cat doing an elaborate dance - spinning after his tail, batting at the air, prancing on his hind legs. Allie and the three llamas in red pajamas watch and cheer. Oscar looks incredibly pleased with himself. The dance floor sparkles beneath him."
+    },
+    {
+      "pageNumber": 13,
+      "type": "story",
+      "englishText": "'Go Oscar, go!' cheered Allie. Everyone clapped for the dancing cat!",
+      "chineseText": "「加油，奥斯卡，加油！」艾丽欢呼着。大家为跳舞的猫咪鼓掌！",
+      "chinesePinyin": "\"Jiāyóu, Àosīkǎ, jiāyóu!\" Ài Lì huānhūzhe. Dàjiā wèi tiàowǔ de māo mī gǔzhǎng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, clapping enthusiastically. The three llamas in red pajamas also clap with their hooves. Oscar the solid grey Scottish Fold cat takes a bow in the center, looking very proud. Stars and sparkles burst around him like applause."
+    },
+    {
+      "pageNumber": 14,
+      "type": "story",
+      "englishText": "'Time for the GRAND FINALE!' said the middle llama. 'Everyone together now!'",
+      "chineseText": "「该表演压轴节目了！」中间那只小羊驼说。「现在大家一起来！」",
+      "chinesePinyin": "\"Gāi biǎoyǎn yāzhòu jiémù le!\" zhōngjiān nà zhī xiǎo yángtuó shuō. \"Xiànzài dàjiā yīqǐ lái!\"",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of the middle llama in red pajamas striking a dramatic pose with one hoof raised high. Allie, a toddler with short black hair in polka-dot pajamas, and Oscar the solid grey cat look excited. The other two llamas get into position. The sparkly dance floor glows brighter. A spotlight effect shines on them."
+    },
+    {
+      "pageNumber": 15,
+      "type": "story",
+      "englishText": "They all did the BEST dance move: a twirl-hop-wiggle-spin! It was magnificent!",
+      "chineseText": "他们一起跳出了最棒的舞蹈动作：旋转-跳跃-扭动-转圈！太壮观了！",
+      "chinesePinyin": "Tāmen yīqǐ tiào chū le zuì bàng de wǔdǎo dòngzuò: xuánzhuǎn-tiàoyuè-niǔdòng-zhuàn quān! Tài zhuàngguān le!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, Oscar the solid grey cat, and the three llamas in red pajamas all performing an elaborate dance move together. They're simultaneously twirling, hopping, wiggling, and spinning in perfect synchronization. Rainbow trails and sparkles follow their movements. The scene is dynamic and joyful with motion lines everywhere."
+    },
+    {
+      "pageNumber": 16,
+      "type": "story",
+      "englishText": "But all that dancing made everyone very tired. 'Yawn!' went Allie. 'Yawn!' went Oscar.",
+      "chineseText": "但是跳了这么多舞，大家都很累了。「哈欠！」艾丽打哈欠。「哈欠！」奥斯卡也打哈欠。",
+      "chinesePinyin": "Dànshì tiào le zhème duō wǔ, dàjiā dōu hěn lèi le. \"Hāqiàn!\" Ài Lì dǎ hāqiàn. \"Hāqiàn!\" Àosīkǎ yě dǎ hāqiàn.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a sleepy toddler with short black hair in polka-dot pajamas, yawning with her arms stretched up. Oscar the solid grey Scottish Fold cat yawns beside her, showing his little pink tongue. The three llamas in red pajamas also yawn in unison. The sparkly dance floor begins to fade back to the normal living room."
+    },
+    {
+      "pageNumber": 17,
+      "type": "story",
+      "englishText": "'Yawn!' went the llamas. Everyone flopped down on the soft carpet for a rest.",
+      "chineseText": "「哈欠！」小羊驼们打哈欠。大家都扑通一声躺在柔软的地毯上休息。",
+      "chinesePinyin": "\"Hāqiàn!\" xiǎo yángtuó men dǎ hāqiàn. Dàjiā dōu pūtōng yī shēng tǎng zài róuruǎn de dìtǎn shàng xiūxí.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of everyone flopped on the living room carpet. Allie, a toddler with short black hair in polka-dot pajamas, lies on her back looking content. The three llamas in red pajamas sprawl across the floor. Oscar the solid grey cat curls up by Allie. The room has returned to normal with gentle nighttime lighting. Everyone looks peacefully tired."
+    },
+    {
+      "pageNumber": 18,
+      "type": "story",
+      "englishText": "'Time for bed,' whispered the tallest llama. 'Thank you for the best dance party ever!'",
+      "chineseText": "「该睡觉了，」最高的小羊驼轻声说。「谢谢你举办了有史以来最棒的舞会！」",
+      "chinesePinyin": "\"Gāi shuìjiào le,\" zuì gāo de xiǎo yángtuó qīng shēng shuō. \"Xièxiè nǐ jǔbàn le yǒushǐyǐlái zuì bàng de wǔhuì!\"",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of the tallest llama in red pajamas gently picking up Allie, a sleepy toddler with short black hair in polka-dot pajamas, to carry her to bed. The other two llamas wave goodbye. Oscar the solid grey cat follows with droopy eyes. The scene is tender and warm with soft moonlight through the window."
+    },
+    {
+      "pageNumber": 19,
+      "type": "story",
+      "englishText": "The llamas tucked Allie into bed and gave her gentle llama kisses. Then they jumped back into the book!",
+      "chineseText": "小羊驼们给艾丽盖好被子，轻轻地亲了她。然后它们跳回书里去了！",
+      "chinesePinyin": "Xiǎo yángtuó men gěi Ài Lì gài hǎo bèizi, qīngqīng de qīn le tā. Ránhòu tāmen tiào huí shū lǐ qù le!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie tucked snugly in her bed with the three llamas in red pajamas leaning over to give her gentle nose kisses. Oscar the solid grey cat is already curled up at the foot of the bed. The Llama Llama book on the nightstand glows softly. One by one, the llamas leap back into the book in streams of golden light. The room is peaceful and cozy."
+    },
+    {
+      "pageNumber": 20,
+      "type": "ending",
+      "englishText": "As Allie drifted to sleep, she dreamed of dancing with friends. Because the best joy is the joy you share! The End.",
+      "chineseText": "艾丽慢慢睡着了，她梦见和朋友们一起跳舞。因为最好的快乐就是分享的快乐！完。",
+      "chinesePinyin": "Ài Lì mànmàn shuìzháo le, tā mèngjiàn hé péngyǒumen yīqǐ tiàowǔ. Yīnwèi zuì hǎo de kuàilè jiùshì fēnxiǎng de kuàilè! Wán.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a peaceful toddler with short black hair, sleeping contentedly in her bed. Above her floats a dream bubble showing her dancing joyfully with the three llamas in red pajamas and Oscar the solid grey cat. Musical notes and sparkles fill the dream bubble. Oscar sleeps curled at her feet. A small ladybug rests on the window frame. Moonlight streams through the window casting a gentle glow. Text at bottom says 'The End / 完'."
+    }
+  ]
+}

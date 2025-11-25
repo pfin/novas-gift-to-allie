@@ -1,0 +1,556 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>The Llama Llama Dance Party</title>
+        <style>
+    @font-face {
+        font-family: 'Microsoft YaHei';
+        src: url('file:///home/peter/novas-gift-to-allie/fonts/msyh.ttc');
+    }
+
+    @font-face {
+        font-family: 'SimSun';
+        src: url('file:///home/peter/novas-gift-to-allie/fonts/simsun.ttc');
+    }
+    
+    @page {
+        size: A4 landscape;
+        margin: 15mm;
+    }
+
+    body {
+        font-family: 'Microsoft YaHei', 'SimSun', Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .page {
+        page-break-after: always;
+        height: 170mm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page:last-child {
+        page-break-after: avoid;
+    }
+
+    .title-page {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-english {
+        font-size: 36pt;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-bottom: 10px;
+    }
+
+    .title-chinese {
+        font-size: 32pt;
+        font-weight: bold;
+        color: #c0392b;
+        margin-bottom: 20px;
+    }
+
+    .author {
+        font-size: 18pt;
+        color: #666;
+        margin: 20px 0;
+    }
+
+    .dedication {
+        font-size: 14pt;
+        font-style: italic;
+        color: #888;
+        margin-top: 30px;
+    }
+
+    .illustration-area {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border: 2px dashed #bdc3c7;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        min-height: 80mm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .illustration-prompt {
+        font-size: 10pt;
+        color: #7f8c8d;
+        font-style: italic;
+    }
+
+    .text-area {
+        display: flex;
+        gap: 20px;
+        flex-grow: 1;
+    }
+
+    .english-column, .chinese-column {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .english-column {
+        border-right: 2px solid #ecf0f1;
+    }
+
+    .english-text {
+        font-size: 20pt;
+        color: #2c3e50;
+        font-weight: 500;
+    }
+
+    .chinese-text {
+        font-size: 22pt;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .pinyin {
+        font-size: 12pt;
+        color: #7f8c8d;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+
+    .ladybug-prompt {
+        font-size: 14pt;
+        color: #e74c3c;
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #fdf2f2;
+        border-radius: 10px;
+    }
+
+    .ladybug-emoji {
+        font-size: 20pt;
+    }
+
+    .page-number {
+        text-align: center;
+        font-size: 12pt;
+        color: #bdc3c7;
+        margin-top: auto;
+        padding-top: 10px;
+    }
+
+    .ending-page {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .the-end {
+        font-size: 36pt;
+        color: #e74c3c;
+        margin: 40px 0;
+    }
+
+    .the-end-chinese {
+        font-size: 32pt;
+        color: #c0392b;
+    }
+
+    .from-nova {
+        font-size: 16pt;
+        color: #888;
+        margin-top: 40px;
+        font-style: italic;
+    }
+
+    .ladybug-count {
+        font-size: 18pt;
+        color: #e74c3c;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fdf2f2;
+        border-radius: 15px;
+        display: inline-block;
+    }
+    </style>
+    </head>
+    <body>
+    
+            <div class="page title-page">
+                <div class="title-english">The Llama Llama Dance Party</div>
+                <div class="title-chinese">小羊驼舞会</div>
+                <div class="pinyin">Xiǎo Yángtuó Wǔhuì</div>
+                <div class="author">By Nova / 作者：诺瓦</div>
+                <div class="dedication">For Allie, who dances with joy every day</div>
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style title page illustration featuring Allie, a cheerful toddler with short bl...]</div>
+                </div>
+                <div class="page-number">Page 1 | 第1页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair wearing cute polka-dot pajamas, wiggling and squirming in her bed. S...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">It was bedtime, but Allie wasn't sleepy. She wiggled in her cozy bed.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Gāi shuìjiào le, dàn Ài Lì hái bù kùn. Tā zài shūshì de chuáng shàng niǔ lái niǔ qù.</div>
+                        <div class="chinese-text">该睡觉了，但艾丽还不困。她在舒适的床上扭来扭去。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 2 | 第2页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie sitting up in bed with her eyes wide and curious. Musical notes float in the air glowing softly. Osca...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Suddenly, she heard music! Tink-tink-tinkle! Where was it coming from?</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Tūrán, tā tīng dào le yīnyuè! Dīng dīng dīng! Yīnyuè cóng nǎlǐ lái de?</div>
+                        <div class="chinese-text">突然，她听到了音乐！叮叮叮！音乐从哪里来的？</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 3 | 第3页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration showing Allie, a toddler with short black hair in polka-dot pajamas, pointing at her bookshelf. The Llama Llam...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Allie looked at her Llama Llama book on the shelf. The pages were glowing!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Ài Lì kànzhe shūjià shàng de "Xiǎo Yángtuó" shū. Shūyè zài fāguāng!</div>
+                        <div class="chinese-text">艾丽看着书架上的《小羊驼》书。书页在发光！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 4 | 第4页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of three friendly cartoon llamas leaping out of a glowing book. They wear bright red pajamas like the Llama Ll...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">WHOOSH! Three llamas leaped right out of the book! They wore red pajamas just like in the stories!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Huā! Sān zhī xiǎo yángtuó cóng shū lǐ tiào le chūlái! Tāmen chuānzhe hóngsè shuìyī, jiù xiàng gùshì lǐ yīyàng!</div>
+                        <div class="chinese-text">哗！三只小羊驼从书里跳了出来！它们穿着红色睡衣，就像故事里一样！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 5 | 第5页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of the tallest llama in red pajamas bowing politely to Allie, extending a hoof. Allie, a toddler with short bl...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'It's dance party time!' said the tallest llama. 'Will you dance with us, Allie?'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Gāi tiàowǔ le!" zuì gāo de xiǎo yángtuó shuō. "Ài Lì, nǐ yuànyì hé wǒmen yīqǐ tiàowǔ ma?"</div>
+                        <div class="chinese-text">「该跳舞了！」最高的小羊驼说。「艾丽，你愿意和我们一起跳舞吗？」</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 6 | 第6页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie's living room transforming into a magical dance floor. The floor sparkles like a disco ball with colo...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Dance! Dance!' giggled Allie. The living room magically transformed into a sparkly dance floor!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Tiàowǔ! Tiàowǔ!" Ài Lì gēgē xiàozhe shuō. Kètīng shénqí de biàn chéng le shǎnshǎn fāguāng de wǔchí!</div>
+                        <div class="chinese-text">「跳舞！跳舞！」艾丽咯咯笑着说。客厅神奇地变成了闪闪发光的舞池！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 7 | 第7页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, spinning with her arms out and a huge smile. T...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'First, we TWIRL!' said the llamas. Everyone spun round and round like spinning tops!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Shǒuxiān, wǒmen xuánzhuǎn!" xiǎo yángtuó men shuō. Dàjiā xiàng tuóluó yīyàng zhuǎn a zhuǎn!</div>
+                        <div class="chinese-text">「首先，我们旋转！」小羊驼们说。大家像陀螺一样转啊转！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 8 | 第8页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, jumping high in the air with both feet off the...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Now, we HOP!' Allie bounced up and down. Hop, hop, hop! The llamas hopped too!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Xiànzài, wǒmen tiào!" Ài Lì shàngxià bèngtiào. Tiào, tiào, tiào! Xiǎo yángtuó men yě tiào qǐlái!</div>
+                        <div class="chinese-text">「现在，我们跳！」艾丽上下蹦跳。跳，跳，跳！小羊驼们也跳起来！</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 9 | 第9页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, wiggling side to side with a silly expression....]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Let's WIGGLE!' giggled the smallest llama. Everyone wiggled their bottoms and shook their ears!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Ràng wǒmen niǔ yī niǔ!" zuì xiǎo de xiǎo yángtuó gēgē xiàozhe shuō. Dàjiā niǔdòng pìgǔ, huàngdòng ěrduǒ!</div>
+                        <div class="chinese-text">「让我们扭一扭！」最小的小羊驼咯咯笑着说。大家扭动屁股，晃动耳朵！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 10 | 第10页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Oscar, a fluffy solid grey Scottish Fold cat with folded ears, leaping off the couch with paws outstretched...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Oscar couldn't resist anymore! 'Meow!' He jumped down and started dancing too!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Àosīkǎ zài yě rěn bù zhù le! "Miāo!" Tā tiào xiàlái yě kāishǐ tiàowǔ le!</div>
+                        <div class="chinese-text">奥斯卡再也忍不住了！「喵！」他跳下来也开始跳舞了！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 11 | 第11页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Oscar the solid grey Scottish Fold cat doing an elaborate dance - spinning after his tail, batting at the a...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Oscar did the cat dance! He pounced and pranced, and chased his tail in circles!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Àosīkǎ tiào qǐ le māo mī wǔ! Tā pū lái pū qù, zhuīzhe zìjǐ de wěibā zhuàn quān!</div>
+                        <div class="chinese-text">奥斯卡跳起了猫咪舞！他扑来扑去，追着自己的尾巴转圈！</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 12 | 第12页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in polka-dot pajamas, clapping enthusiastically. The three llamas in...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Go Oscar, go!' cheered Allie. Everyone clapped for the dancing cat!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Jiāyóu, Àosīkǎ, jiāyóu!" Ài Lì huānhūzhe. Dàjiā wèi tiàowǔ de māo mī gǔzhǎng!</div>
+                        <div class="chinese-text">「加油，奥斯卡，加油！」艾丽欢呼着。大家为跳舞的猫咪鼓掌！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 13 | 第13页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of the middle llama in red pajamas striking a dramatic pose with one hoof raised high. Allie, a toddler with s...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Time for the GRAND FINALE!' said the middle llama. 'Everyone together now!'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Gāi biǎoyǎn yāzhòu jiémù le!" zhōngjiān nà zhī xiǎo yángtuó shuō. "Xiànzài dàjiā yīqǐ lái!"</div>
+                        <div class="chinese-text">「该表演压轴节目了！」中间那只小羊驼说。「现在大家一起来！」</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 14 | 第14页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, Oscar the solid grey cat, and the three llamas in red pajamas all performing an elaborate dance move...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">They all did the BEST dance move: a twirl-hop-wiggle-spin! It was magnificent!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Tāmen yīqǐ tiào chū le zuì bàng de wǔdǎo dòngzuò: xuánzhuǎn-tiàoyuè-niǔdòng-zhuàn quān! Tài zhuàngguān le!</div>
+                        <div class="chinese-text">他们一起跳出了最棒的舞蹈动作：旋转-跳跃-扭动-转圈！太壮观了！</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 15 | 第15页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a sleepy toddler with short black hair in polka-dot pajamas, yawning with her arms stretched up. Osc...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">But all that dancing made everyone very tired. 'Yawn!' went Allie. 'Yawn!' went Oscar.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Dànshì tiào le zhème duō wǔ, dàjiā dōu hěn lèi le. "Hāqiàn!" Ài Lì dǎ hāqiàn. "Hāqiàn!" Àosīkǎ yě dǎ hāqiàn.</div>
+                        <div class="chinese-text">但是跳了这么多舞，大家都很累了。「哈欠！」艾丽打哈欠。「哈欠！」奥斯卡也打哈欠。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 16 | 第16页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of everyone flopped on the living room carpet. Allie, a toddler with short black hair in polka-dot pajamas, li...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Yawn!' went the llamas. Everyone flopped down on the soft carpet for a rest.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Hāqiàn!" xiǎo yángtuó men dǎ hāqiàn. Dàjiā dōu pūtōng yī shēng tǎng zài róuruǎn de dìtǎn shàng xiūxí.</div>
+                        <div class="chinese-text">「哈欠！」小羊驼们打哈欠。大家都扑通一声躺在柔软的地毯上休息。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 17 | 第17页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of the tallest llama in red pajamas gently picking up Allie, a sleepy toddler with short black hair in polka-d...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Time for bed,' whispered the tallest llama. 'Thank you for the best dance party ever!'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Gāi shuìjiào le," zuì gāo de xiǎo yángtuó qīng shēng shuō. "Xièxiè nǐ jǔbàn le yǒushǐyǐlái zuì bàng de wǔhuì!"</div>
+                        <div class="chinese-text">「该睡觉了，」最高的小羊驼轻声说。「谢谢你举办了有史以来最棒的舞会！」</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 18 | 第18页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie tucked snugly in her bed with the three llamas in red pajamas leaning over to give her gentle nose ki...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">The llamas tucked Allie into bed and gave her gentle llama kisses. Then they jumped back into the book!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Xiǎo yángtuó men gěi Ài Lì gài hǎo bèizi, qīngqīng de qīn le tā. Ránhòu tāmen tiào huí shū lǐ qù le!</div>
+                        <div class="chinese-text">小羊驼们给艾丽盖好被子，轻轻地亲了她。然后它们跳回书里去了！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 19 | 第19页</div>
+            </div>
+            
+            <div class="page ending-page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a peaceful toddler with short black hair, sleeping...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">As Allie drifted to sleep, she dreamed of dancing with friends. Because the best joy is the joy you share! The End.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Ài Lì mànmàn shuìzháo le, tā mèngjiàn hé péngyǒumen yīqǐ tiàowǔ. Yīnwèi zuì hǎo de kuàilè jiùshì fēnxiǎng de kuàilè! Wán.</div>
+                        <div class="chinese-text">艾丽慢慢睡着了，她梦见和朋友们一起跳舞。因为最好的快乐就是分享的快乐！完。</div>
+                    </div>
+                </div>
+                <div class="the-end">The End</div>
+                <div class="the-end-chinese">完</div>
+                <div class="from-nova">With love from Nova / 来自诺瓦的爱</div>
+                <div class="ladybug-count">
+                    <span class="ladybug-emoji">🐞</span>
+                    How many ladybugs did you find? / 你找到了几只瓢虫？
+                </div>
+                <div class="page-number">Page 20 | 第20页</div>
+            </div>
+            </body></html>

@@ -1,0 +1,170 @@
+{
+  "id": "learn-colors",
+  "titleEnglish": "Allie Learns Her Colors",
+  "titleChinese": "艾丽学颜色",
+  "titlePinyin": "Ài Lì Xué Yánsè",
+  "author": "Nova",
+  "dedicatedTo": "For Allie, who makes the world more colorful every day",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "type": "title",
+      "englishText": "Allie Learns Her Colors",
+      "chineseText": "艾丽学颜色",
+      "chinesePinyin": "Ài Lì Xué Yánsè",
+      "illustrationPrompt": "A whimsical, cartoon-style title page featuring Allie, a cheerful toddler with short black hair wearing a rainbow dress, surrounded by colorful objects: red ladybugs, orange oranges, yellow sun, green grass, blue sky, purple flowers, pink butterflies, and Oscar, a solid grey Scottish Fold cat with folded ears. The scene is vibrant, playful, and educational, with each color clearly represented. Rainbow sparkles fill the air."
+    },
+    {
+      "pageNumber": 2,
+      "type": "story",
+      "englishText": "One bright morning, Allie looked around and noticed something special. Everything had colors!",
+      "chineseText": "一个明亮的早晨，艾丽环顾四周，注意到一些特别的东西。每样东西都有颜色！",
+      "chinesePinyin": "Yīgè míngliàng de zǎochén, Ài Lì huángù sìzhōu, zhùyì dào yīxiē tèbié de dōngxi. Měi yàng dōngxi dōu yǒu yánsè!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in pajamas, sitting up in her colorful bedroom looking amazed. Her room has toys of many colors scattered around. Oscar the solid grey Scottish Fold cat sits on her bed. Morning sunlight streams through the window showing a rainbow of colors on the walls."
+    },
+    {
+      "pageNumber": 3,
+      "type": "story",
+      "englishText": "'Oscar, look!' said Allie. 'Red!' She pointed at the bright red ladybug crawling on her window.",
+      "chineseText": "「奥斯卡，看！」艾丽说。「红色！」她指着窗户上爬行的鲜红瓢虫。",
+      "chinesePinyin": "\"Àosīkǎ, kàn!\" Ài Lì shuō. \"Hóngsè!\" Tā zhǐzhe chuānghù shàng páxíng de xiānhóng piáochóng.",
+      "illustrationPrompt": "A whimsical, cartoon-style close-up illustration of a beautiful red ladybug with black spots crawling on a window. Allie, a toddler with short black hair, points excitedly at it. Oscar the solid grey Scottish Fold cat watches the ladybug with fascination. The ladybug is prominently red and sparkly. Everything else in the scene has muted colors to emphasize the RED."
+    },
+    {
+      "pageNumber": 4,
+      "type": "story",
+      "englishText": "In the kitchen, Daddy was cutting carrots. 'Red and orange!' said Allie.",
+      "chineseText": "在厨房里，爸爸正在切胡萝卜。「红色和橙色！」艾丽说。",
+      "chinesePinyin": "Zài chúfáng lǐ, bàba zhèngzài qiē húluóbo. \"Hóngsè hé chéngsè!\" Ài Lì shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Peter, a tall lean blonde man in his 40s wearing a casual shirt, cutting bright orange carrots at the kitchen counter. Allie, a toddler with short black hair, watches from her high chair. The carrots are prominently orange and glow with color. Oscar the solid grey cat sits nearby. The kitchen has warm lighting emphasizing the ORANGE of the carrots."
+    },
+    {
+      "pageNumber": 5,
+      "type": "story",
+      "englishText": "Through the window, the sunset painted the sky orange. 'Pretty orange sky!' Allie clapped.",
+      "chineseText": "透过窗户，日落把天空染成橙色。「漂亮的橙色天空！」艾丽拍手说。",
+      "chinesePinyin": "Tòuguò chuānghù, rìluò bǎ tiānkōng rǎn chéng chéngsè. \"Piàoliang de chéngsè tiānkōng!\" Ài Lì pāishǒu shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a beautiful sunset seen through a large window. The sky is painted in brilliant shades of orange with some pink and gold. Allie, a toddler with short black hair wearing an orange shirt, stands by the window clapping. Oscar the solid grey cat sits beside her on the windowsill. The entire scene glows with warm ORANGE light."
+    },
+    {
+      "pageNumber": 6,
+      "type": "story",
+      "englishText": "'Look up!' said Mommy. The sun was bright yellow in the morning sky.",
+      "chineseText": "「抬头看！」妈妈说。早晨的天空中，太阳是明亮的黄色。",
+      "chinesePinyin": "\"Táitóu kàn!\" Māma shuō. Zǎochén de tiānkōng zhōng, tàiyáng shì míngliàng de huángsè.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration looking up at a brilliant yellow sun with happy rays radiating outward. Lu, a petite Asian woman with medium-length black hair, holds Allie, a toddler with short black hair wearing a yellow dress, pointing up at the sun. Oscar the solid grey cat looks up too. The entire scene is bathed in cheerful YELLOW light. Small yellow butterflies flutter around."
+    },
+    {
+      "pageNumber": 7,
+      "type": "story",
+      "englishText": "'Yellow bananas! Yellow duckies in the bath!' Allie counted all the yellow things.",
+      "chineseText": "「黄色的香蕉！浴缸里黄色的小鸭子！」艾丽数着所有黄色的东西。",
+      "chinesePinyin": "\"Huángsè de xiāngjiāo! Yùgāng lǐ huángsè de xiǎo yāzi!\" Ài Lì shǔzhe suǒyǒu huángsè de dōngxi.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration split into two scenes: on the left, a bunch of bright yellow bananas on the kitchen counter; on the right, yellow rubber duckies floating in bath water. Allie, a cheerful toddler with short black hair wearing yellow pajamas, points at both scenes counting. Oscar the solid grey cat investigates the bananas. Everything YELLOW is emphasized with a warm glow."
+    },
+    {
+      "pageNumber": 8,
+      "type": "story",
+      "englishText": "Outside, the grass was so green! 'Green, green grass!' sang Allie, dancing on the lawn.",
+      "chineseText": "外面的草地是那么绿！「绿色，绿色的草！」艾丽在草坪上跳舞唱歌。",
+      "chinesePinyin": "Wàimiàn de cǎodì shì nàme lǜ! \"Lǜsè, lǜsè de cǎo!\" Ài Lì zài cǎopíng shàng tiàowǔ chànggē.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair wearing a white dress with green polka dots, dancing joyfully on a lush green lawn. The grass is vibrantly GREEN and sparkles with morning dew. Oscar the solid grey Scottish Fold cat rolls in the grass playfully. Green leaves on trees surround them. The entire scene emphasizes the beauty of GREEN."
+    },
+    {
+      "pageNumber": 9,
+      "type": "story",
+      "englishText": "Oscar's eyes sparkled green in the sunshine. 'Oscar has green eyes!' Allie giggled.",
+      "chineseText": "奥斯卡的眼睛在阳光下闪耀着绿色。「奥斯卡有绿色的眼睛！」艾丽咯咯笑。",
+      "chinesePinyin": "Àosīkǎ de yǎnjīng zài yángguāng xià shǎnyàozhe lǜsè. \"Àosīkǎ yǒu lǜsè de yǎnjīng!\" Ài Lì gēgē xiào.",
+      "illustrationPrompt": "A whimsical, cartoon-style close-up illustration of Oscar, a solid grey Scottish Fold cat with folded ears, looking directly at the viewer. His eyes are brilliant sparkling GREEN and catch the light beautifully. Allie, a toddler with short black hair, peers at Oscar's face with delight. The background is softly blurred to emphasize Oscar's beautiful GREEN eyes."
+    },
+    {
+      "pageNumber": 10,
+      "type": "story",
+      "englishText": "'What color is the sky?' asked Daddy. 'Blue!' shouted Allie, pointing up.",
+      "chineseText": "「天空是什么颜色？」爸爸问。「蓝色！」艾丽大喊，指向天空。",
+      "chinesePinyin": "\"Tiānkōng shì shénme yánsè?\" Bàba wèn. \"Lánsè!\" Ài Lì dà hǎn, zhǐ xiàng tiānkōng.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a beautiful clear blue sky with fluffy white clouds. Peter, a tall lean blonde man, holds Allie, a toddler with short black hair wearing a blue dress, as she points up excitedly. Oscar the solid grey cat sits on Peter's shoulder. The sky is a gorgeous gradient of BLUE from deep azure to light cyan. Birds fly in the distance."
+    },
+    {
+      "pageNumber": 11,
+      "type": "story",
+      "englishText": "At snack time, Mommy brought blueberries and blue water in a blue cup. 'All blue!' laughed Allie.",
+      "chineseText": "点心时间，妈妈带来了蓝莓和蓝色杯子里的蓝色水。「都是蓝色！」艾丽笑着说。",
+      "chinesePinyin": "Diǎnxīn shíjiān, māma dàilái le lánméi hé lánsè bēizi lǐ de lánsè shuǐ. \"Dōu shì lánsè!\" Ài Lì xiàozhe shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a snack table with a blue bowl full of plump blueberries, a blue cup with water, and a blue plate. Lu, a petite Asian woman with black hair wearing a blue apron, serves Allie, a toddler with short black hair. Oscar the solid grey cat tries to sniff the blueberries. Everything on the table emphasizes the color BLUE with various shades."
+    },
+    {
+      "pageNumber": 12,
+      "type": "story",
+      "englishText": "In the garden, purple flowers swayed in the breeze. 'Purple! Like grapes!' said Allie.",
+      "chineseText": "花园里，紫色的花朵在微风中摇曳。「紫色！像葡萄一样！」艾丽说。",
+      "chinesePinyin": "Huāyuán lǐ, zǐsè de huāduǒ zài wēifēng zhōng yáoyè. \"Zǐsè! Xiàng pútáo yīyàng!\" Ài Lì shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a beautiful flower garden with vibrant purple flowers - lavender, irises, and petunias swaying gently. Allie, a toddler with short black hair wearing a purple sundress, stands among the flowers. Oscar the solid grey cat sniffs a purple bloom. The entire garden glows with shades of PURPLE. Butterflies in purple hues flutter around."
+    },
+    {
+      "pageNumber": 13,
+      "type": "story",
+      "englishText": "Mommy brought fresh purple grapes. They were sweet and juicy! 'Yummy purple!' said Allie.",
+      "chineseText": "妈妈带来了新鲜的紫色葡萄。它们又甜又多汁！「好吃的紫色！」艾丽说。",
+      "chinesePinyin": "Māma dàilái le xīnxiān de zǐsè pútáo. Tāmen yòu tián yòu duō zhī! \"Hǎo chī de zǐsè!\" Ài Lì shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Lu, a petite Asian woman with black hair, offering a bowl of deep purple grapes to Allie, a toddler with short black hair. Allie holds a grape in her hand examining its beautiful PURPLE color. Oscar the solid grey cat looks interested in the grapes. The grapes are plump and glistening, emphasizing their rich PURPLE hue."
+    },
+    {
+      "pageNumber": 14,
+      "type": "story",
+      "englishText": "'I want to wear pink!' said Allie. Mommy found a beautiful pink dress with flowers.",
+      "chineseText": "「我想穿粉色！」艾丽说。妈妈找到了一件带花的漂亮粉色连衣裙。",
+      "chinesePinyin": "\"Wǒ xiǎng chuān fěnsè!\" Ài Lì shuō. Māma zhǎodào le yī jiàn dài huā de piàoliang fěnsè liányīqún.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, wearing a beautiful pink dress with little pink flowers on it. She twirls happily making the dress spin. Lu, her mother with black hair, smiles warmly. Oscar the solid grey cat plays with the hem of the pink dress. The entire scene glows with soft PINK tones - pink dress, pink flowers, pink ribbons."
+    },
+    {
+      "pageNumber": 15,
+      "type": "story",
+      "englishText": "Pink flowers bloomed by the door. 'Pink roses! So pretty!' Allie smelled them gently.",
+      "chineseText": "门边开着粉色的花朵。「粉色的玫瑰！好漂亮！」艾丽轻轻地闻着它们。",
+      "chinesePinyin": "Mén biān kāizhe fěnsè de huāduǒ. \"Fěnsè de méiguī! Hǎo piàoliang!\" Ài Lì qīngqīng de wénzhe tāmen.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of beautiful pink roses blooming beside a front door. Allie, a toddler with short black hair in a pink dress, leans in to smell a large pink rose. The petals are soft and glowing in various shades of PINK from light blush to deep rose. Oscar the solid grey cat watches a pink butterfly land on a petal. Everything emphasizes the beauty of PINK."
+    },
+    {
+      "pageNumber": 16,
+      "type": "story",
+      "englishText": "'Look up at the clouds!' said Daddy. 'They're white like cotton!'",
+      "chineseText": "「抬头看云！」爸爸说。「它们像棉花一样是白色的！」",
+      "chinesePinyin": "\"Táitóu kàn yún!\" Bàba shuō. \"Tāmen xiàng miánhuā yīyàng shì báisè de!\"",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration looking up at fluffy white clouds in a bright blue sky. The clouds are pure WHITE and shaped like animals - a bunny, a cat, a butterfly. Peter, a tall blonde man, points at the clouds while holding Allie, a toddler with short black hair. Oscar the solid grey cat sits on Peter's shoulder. The WHITE clouds are soft and puffy against the blue sky."
+    },
+    {
+      "pageNumber": 17,
+      "type": "story",
+      "englishText": "Oscar's whiskers were white! His paws were white! 'White like snow!' giggled Allie.",
+      "chineseText": "奥斯卡的胡须是白色的！他的爪子是白色的！「像雪一样白！」艾丽咯咯笑。",
+      "chinesePinyin": "Àosīkǎ de húxū shì báisè de! Tā de zhuǎzi shì báisè de! \"Xiàng xuě yīyàng bái!\" Ài Lì gēgē xiào.",
+      "illustrationPrompt": "A whimsical, cartoon-style close-up illustration of Oscar, a solid grey Scottish Fold cat with folded ears. The illustration emphasizes his WHITE whiskers glowing in the light and his cute WHITE paw pads. Allie, a toddler with short black hair, gently touches Oscar's white whiskers. The background is softly blurred to highlight the WHITE details on Oscar. Sparkles accent the white features."
+    },
+    {
+      "pageNumber": 18,
+      "type": "story",
+      "englishText": "'What color is Oscar?' asked Mommy. Allie looked carefully. 'Grey! Oscar is grey!'",
+      "chineseText": "「奥斯卡是什么颜色？」妈妈问。艾丽仔细地看。「灰色！奥斯卡是灰色的！」",
+      "chinesePinyin": "\"Àosīkǎ shì shénme yánsè?\" Māma wèn. Ài Lì zǐxì de kàn. \"Huīsè! Àosīkǎ shì huīsè de!\"",
+      "illustrationPrompt": "A whimsical, cartoon-style portrait illustration featuring Oscar, a magnificent solid grey Scottish Fold cat with folded ears, as the star. His GREY fur is soft and fluffy, shown in various shades from light silver to darker charcoal grey. Allie, a toddler with short black hair, hugs Oscar lovingly. Lu, a petite Asian woman with black hair, smiles at them. The entire scene celebrates Oscar's beautiful GREY coat with sparkles in grey tones."
+    },
+    {
+      "pageNumber": 19,
+      "type": "story",
+      "englishText": "'I love grey!' said Allie, kissing Oscar's fuzzy grey head. Oscar purred happily.",
+      "chineseText": "「我爱灰色！」艾丽说，亲吻奥斯卡毛茸茸的灰色头。奥斯卡开心地发出呼噜声。",
+      "chinesePinyin": "\"Wǒ ài huīsè!\" Ài Lì shuō, qīnwěn Àosīkǎ máoróngrong de huīsè tóu. Àosīkǎ kāixīn de fāchū hūlū shēng.",
+      "illustrationPrompt": "A whimsical, cartoon-style tender moment showing Allie, a toddler with short black hair, giving Oscar, a solid grey Scottish Fold cat, a gentle kiss on his grey fuzzy head. Oscar's eyes are closed in contentment as he purrs. Musical notes indicating purring float around them. The scene emphasizes Oscar's soft GREY fur texture. Hearts and sparkles surround them in grey and silver tones."
+    },
+    {
+      "pageNumber": 20,
+      "type": "ending",
+      "englishText": "That night, a rainbow appeared after the rain. 'All the colors together!' Allie clapped. She had learned her colors, and the world was more beautiful than ever. The End.",
+      "chineseText": "那天晚上，雨后出现了彩虹。「所有的颜色在一起！」艾丽拍手。她学会了颜色，世界比以往任何时候都更美丽。完。",
+      "chinesePinyin": "Nà tiān wǎnshàng, yǔ hòu chūxiàn le cǎihóng. \"Suǒyǒu de yánsè zài yīqǐ!\" Ài Lì pāishǒu. Tā xuéhuì le yánsè, shìjiè bǐ wǎngcháng rènhé shíhòu dōu gèng měilì. Wán.",
+      "illustrationPrompt": "A whimsical, cartoon-style celebration illustration showing a magnificent rainbow arching across the sky after a gentle rain. All colors are represented: red, orange, yellow, green, blue, purple, pink. Allie, a toddler with short black hair in a rainbow dress, stands between Peter (tall blonde man) and Lu (petite Asian woman with black hair) with her arms raised in joy. Oscar the solid grey cat sits at their feet. A red ladybug sits on Allie's shoulder. Sparkles and joy fill the air. Text at bottom says 'The End / 完'."
+    }
+  ]
+}

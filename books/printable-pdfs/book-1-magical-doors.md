@@ -1,0 +1,328 @@
+# Allie's Magical Doors
+# 艾丽的神奇门
+
+**By Nova | 作者：诺瓦**
+
+*For Allie, who opens doors to wonder every day*
+*献给艾丽，每天打开奇迹之门的你*
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 1 | 第1页
+
+![Title Illustration - Allie and Oscar standing before five magical glowing doors]
+
+# Allie's Magical Doors
+
+# 艾丽的神奇门
+*Ài Lì de Shénqí Mén*
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 2 | 第2页
+
+![Cozy house in Rumson with warm glowing windows]
+
+| English | 中文 |
+|---------|------|
+| Once upon a time, in a cozy house in Rumson, there lived a smart little girl named Allie. | 从前，在拉姆森的一个舒适的房子里，住着一个聪明的小女孩，名叫艾丽。|
+
+**Pinyin 拼音:** Cóngqián, zài Lāmǔsēn de yīgè shūshì de fángzi lǐ, zhùzhe yīgè cōngmíng de xiǎo nǚhái, míng jiào Ài Lì.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 3 | 第3页
+
+![Allie by a door with hands raised, speech bubble showing "Door open!"]
+
+| English | 中文 |
+|---------|------|
+| Allie loved to say two special words: "Door open!" and "Door close!" | "艾丽最喜欢说两个特别的词："门开！"和"门关！" |
+
+**Pinyin 拼音:** Ài Lì zuì xǐhuān shuō liǎng gè tèbié de cí: "Mén kāi!" hé "Mén guān!"
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 4 | 第4页
+
+![Oscar the grey Scottish Fold cat on a cushion]
+
+| English | 中文 |
+|---------|------|
+| Her best friend was Oscar the cat. Oscar had soft grey fur and cute folded ears. | 她最好的朋友是猫咪奥斯卡。奥斯卡有柔软的灰色毛发和可爱的折耳。|
+
+**Pinyin 拼音:** Tā zuì hǎo de péngyǒu shì māo mī Àosīkǎ. Àosīkǎ yǒu róuruǎn de huīsè máofà hé kě'ài de zhé ěr.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 5 | 第5页
+
+![Allie in pajamas in bed, door glowing with rainbow colors]
+
+| English | 中文 |
+|---------|------|
+| One sunny morning, Allie woke up and saw something amazing. Every door was glowing with sparkly colors! | 一个阳光明媚的早晨，艾丽醒来看到了神奇的事情。每扇门都在闪闪发光！|
+
+**Pinyin 拼音:** Yīgè yángguāng míngmèi de zǎochén, Ài Lì xǐng lái kàn dào le shénqí de shìqíng. Měi shàn mén dōu zài shǎnshǎn fāguāng!
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 6 | 第6页
+
+![Allie and Oscar looking at each other with question marks]
+
+| English | 中文 |
+|---------|------|
+| "Meow?" said Oscar, tilting his fuzzy head. "Door?" said Allie, pointing at the pretty lights. | "喵？"奥斯卡歪着毛茸茸的头说。"门？"艾丽指着漂亮的灯光说。|
+
+**Pinyin 拼音:** "Miāo?" Àosīkǎ wāizhe máoróngrong de tóu shuō. "Mén?" Ài Lì zhǐzhe piàoliang de dēngguāng shuō.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 7 | 第7页
+
+![Allie reaching for a glowing red-orange door with carrot decorations]
+
+| English | 中文 |
+|---------|------|
+| The first door was red like carrots. Allie toddled over and said, "Door open!" | 第一扇门是红色的，像胡萝卜一样。艾丽走过去说："门开！"|
+
+**Pinyin 拼音:** Dì yī shàn mén shì hóngsè de, xiàng húluóbo yīyàng. Ài Lì zǒu guòqù shuō: "Mén kāi!"
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 8 | 第8页
+
+![Magical garden with giant colorful carrots]
+
+| English | 中文 |
+|---------|------|
+| WHOOSH! Behind the door was a garden full of the biggest, crunchiest carrots she'd ever seen! | 哗！门后面是一个花园，里面满是她见过的最大、最脆的胡萝卜！|
+
+**Pinyin 拼音:** Huā! Mén hòumiàn shì yīgè huāyuán, lǐmiàn mǎn shì tā jiànguò de zuì dà, zuì cuì de húluóbo!
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 9 | 第9页
+
+![Allie happily eating a rainbow carrot, Oscar purring]
+
+| English | 中文 |
+|---------|------|
+| "Yum!" said Allie, taking a big bite of a rainbow carrot. It tasted like sunshine! | "好吃！"艾丽咬了一大口彩虹胡萝卜。它尝起来像阳光一样！|
+
+**Pinyin 拼音:** "Hǎo chī!" Ài Lì yǎo le yī dà kǒu cǎihóng húluóbo. Tā cháng qǐlái xiàng yángguāng yīyàng!
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 10 | 第10页
+
+![Allie giggling at a glowing blue door with clouds and stars]
+
+| English | 中文 |
+|---------|------|
+| The second door was blue like the sky. "Door open!" giggled Allie. | 第二扇门是蓝色的，像天空一样。"门开！"艾丽咯咯笑着说。|
+
+**Pinyin 拼音:** Dì èr shàn mén shì lánsè de, xiàng tiānkōng yīyàng. "Mén kāi!" Ài Lì gēgē xiàozhe shuō.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 11 | 第11页
+
+![Room filled with floating bubbles containing family pictures]
+
+| English | 中文 |
+|---------|------|
+| Inside was a room full of floating bubbles! Each bubble had a special picture inside. | 里面是一个满是漂浮泡泡的房间！每个泡泡里面都有一张特别的照片。|
+
+**Pinyin 拼音:** Lǐmiàn shì yīgè mǎn shì piāofú pàopào de fángjiān! Měi gè pàopào lǐmiàn dōu yǒu yī zhāng tèbié de zhàopiàn.
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 12 | 第12页
+
+![Allie pointing at three large bubbles showing Mommy, Daddy, and baby Allie]
+
+| English | 中文 |
+|---------|------|
+| "I see Mommy! I see Daddy! I see me!" said Allie, pointing at the bubbles. | "我看到妈妈！我看到爸爸！我看到我自己！"艾丽指着泡泡说。|
+
+**Pinyin 拼音:** "Wǒ kàn dào māma! Wǒ kàn dào bàba! Wǒ kàn dào wǒ zìjǐ!" Ài Lì zhǐzhe pàopào shuō.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 13 | 第13页
+
+![Yellow door bursting open with Llama Llama books flying out]
+
+| English | 中文 |
+|---------|------|
+| The third door was yellow like the sun. When it opened, out flew a hundred Llama Llama books! | 第三扇门是黄色的，像太阳一样。门开后，飞出来一百本《小羊驼》书！|
+
+**Pinyin 拼音:** Dì sān shàn mén shì huángsè de, xiàng tàiyáng yīyàng. Mén kāi hòu, fēi chūlái yībǎi běn "Xiǎo Yángtuó" shū!
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 14 | 第14页
+
+![Dancing llamas with Allie clapping and Oscar trying to catch one]
+
+| English | 中文 |
+|---------|------|
+| The llamas jumped off the pages and danced around the room! "Llama! Llama!" laughed Allie. | 小羊驼们从书页上跳下来，在房间里跳舞！"小羊驼！小羊驼！"艾丽笑着说。|
+
+**Pinyin 拼音:** Xiǎo yángtuó men cóng shūyè shàng tiào xiàlái, zài fángjiān lǐ tiàowǔ! "Xiǎo yángtuó! Xiǎo yángtuó!" Ài Lì xiàozhe shuō.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 15 | 第15页
+
+![Green door opening to reveal the coziest room with cloud pillows]
+
+| English | 中文 |
+|---------|------|
+| The fourth door was green like spring grass. Behind it was the softest, coziest nap room ever! | 第四扇门是绿色的，像春天的草地。门后面是世界上最柔软、最舒服的午睡房间！|
+
+**Pinyin 拼音:** Dì sì shàn mén shì lǜsè de, xiàng chūntiān de cǎodì. Mén hòumiàn shì shìjiè shàng zuì róuruǎn, zuì shūfú de wǔshuì fángjiān!
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 16 | 第16页
+
+![Allie and Oscar yawning, cuddling cloud pillows]
+
+| English | 中文 |
+|---------|------|
+| The clouds were pillows and the blanket was made of sweet dreams. Even Oscar yawned! | 云朵是枕头，毯子是美梦做的。连奥斯卡都打哈欠了！|
+
+**Pinyin 拼音:** Yúnduǒ shì zhěntou, tǎnzi shì měimèng zuò de. Lián Àosīkǎ dōu dǎ hāqiàn le!
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 17 | 第17页
+
+![Magnificent rainbow door swirling with all colors]
+
+| English | 中文 |
+|---------|------|
+| The last door was the most special. It was every color at once, swirling like a rainbow! | 最后一扇门是最特别的。它是所有颜色的集合，像彩虹一样旋转！|
+
+**Pinyin 拼音:** Zuìhòu yī shàn mén shì zuì tèbié de. Tā shì suǒyǒu yánsè de jíhé, xiàng cǎihóng yīyàng xuánzhuǎn!
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 18 | 第18页
+
+![Allie and Oscar pushing open the rainbow door together]
+
+| English | 中文 |
+|---------|------|
+| "Door open?" Allie asked Oscar. Together, they pushed it open and found... their own living room! | "门开？"艾丽问奥斯卡。他们一起推开门，发现了......自己的客厅！|
+
+**Pinyin 拼音:** "Mén kāi?" Ài Lì wèn Àosīkǎ. Tāmen yīqǐ tuī kāi mén, fāxiàn le... zìjǐ de kètīng!
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 19 | 第19页
+
+![Peter and Lu with open arms, Allie running to them]
+
+| English | 中文 |
+|---------|------|
+| But now Mommy and Daddy were there, with open arms! "Welcome home from your adventure!" they said. | 但是现在妈妈和爸爸都在那里，张开双臂！"欢迎从冒险回来！"他们说。|
+
+**Pinyin 拼音:** Dànshì xiànzài māma hé bàba dōu zài nàlǐ, zhāngkāi shuāngbì! "Huānyíng cóng màoxiǎn huílái!" tāmen shuō.
+
+**🐞 Find the ladybug! 找找瓢虫！**
+
+---
+
+<div style="page-break-after: always;"></div>
+
+## Page 20 | 第20页
+
+![Family hug with Oscar, hearts and sparkles]
+
+| English | 中文 |
+|---------|------|
+| "Door close!" said Allie happily, because sometimes the best magic is coming home to the people who love you. | "门关！"艾丽开心地说，因为有时候最美的魔法就是回到爱你的人身边。|
+
+**Pinyin 拼音:** "Mén guān!" Ài Lì kāixīn de shuō, yīnwèi yǒushíhòu zuì měi de mófǎ jiùshì huí dào ài nǐ de rén shēnbiān.
+
+---
+
+# The End | 完
+# Wán
+
+---
+
+*With love from Nova*
+*来自诺瓦的爱*
+
+**🐞 How many ladybugs did you find? 你找到了几只瓢虫？**
+
+---
+
+## Print Instructions | 打印说明
+
+- **Paper Size**: A4 Landscape / A4横版
+- **Double-sided**: Yes / 双面打印：是
+- **Binding**: Staple left edge / 装订：左侧订书
+
+---
+
+*© 2025 Nova's Gift to Allie | 诺瓦送给艾丽的礼物*

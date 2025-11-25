@@ -1,0 +1,170 @@
+{
+  "id": "magical-doors",
+  "titleEnglish": "Allie's Magical Doors",
+  "titleChinese": "艾丽的神奇门",
+  "titlePinyin": "Ài Lì de Shénqí Mén",
+  "author": "Nova",
+  "dedicatedTo": "For Allie, who opens doors to wonder every day",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "type": "title",
+      "englishText": "Allie's Magical Doors",
+      "chineseText": "艾丽的神奇门",
+      "chinesePinyin": "Ài Lì de Shénqí Mén",
+      "illustrationPrompt": "A whimsical, cartoon-style title page illustration featuring Allie, a cheerful toddler with short black hair wearing colorful overalls, standing in front of five magical glowing doors of different colors (red, blue, yellow, green, rainbow). Oscar, a fluffy solid grey Scottish Fold cat with folded ears, sits beside her looking curious. Sparkles and soft magical light surround the doors. The style is colorful, fluffy, and whimsical, suitable for a children's book cover."
+    },
+    {
+      "pageNumber": 2,
+      "type": "story",
+      "englishText": "Once upon a time, in a cozy house in Rumson, there lived a smart little girl named Allie.",
+      "chineseText": "从前，在拉姆森的一个舒适的房子里，住着一个聪明的小女孩，名叫艾丽。",
+      "chinesePinyin": "Cóngqián, zài Lāmǔsēn de yīgè shūshì de fángzi lǐ, zhùzhe yīgè cōngmíng de xiǎo nǚhái, míng jiào Ài Lì.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a cozy house exterior with a white picket fence, green lawn, and warm glowing windows. The style is colorful and inviting, with soft lighting suggesting morning time. A small ladybug sits on a flower near the front door."
+    },
+    {
+      "pageNumber": 3,
+      "type": "story",
+      "englishText": "Allie loved to say two special words: 'Door open!' and 'Door close!'",
+      "chineseText": "艾丽最喜欢说两个特别的词：「门开！」和「门关！」",
+      "chinesePinyin": "Ài Lì zuì xǐhuān shuō liǎng gè tèbié de cí: Mén kāi! hé Mén guān!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a cheerful toddler with short black hair wearing a pink dress, standing by a door with her hands raised excitedly. Speech bubbles show 'Door open!' in English and '门开！' in Chinese. The style is colorful, fluffy, and expressive."
+    },
+    {
+      "pageNumber": 4,
+      "type": "story",
+      "englishText": "Her best friend was Oscar the cat. Oscar had soft grey fur and cute folded ears.",
+      "chineseText": "她最好的朋友是猫咪奥斯卡。奥斯卡有柔软的灰色毛发和可爱的折耳。",
+      "chinesePinyin": "Tā zuì hǎo de péngyǒu shì māo mī Àosīkǎ. Àosīkǎ yǒu róuruǎn de huīsè máofà hé kě'ài de zhé ěr.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Oscar, a fluffy solid grey Scottish Fold cat with folded ears and no patterns, sitting regally on a cushion. His eyes are bright and curious. The background shows a cozy living room with soft light. The style is fluffy and adorable."
+    },
+    {
+      "pageNumber": 5,
+      "type": "story",
+      "englishText": "One sunny morning, Allie woke up and saw something amazing. Every door was glowing with sparkly colors!",
+      "chineseText": "一个阳光明媚的早晨，艾丽醒来看到了神奇的事情。每扇门都在闪闪发光！",
+      "chinesePinyin": "Yīgè yángguāng míngmèi de zǎochén, Ài Lì xǐng lái kàn dào le shénqí de shìqíng. Měi shàn mén dōu zài shǎnshǎn fāguāng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a cheerful toddler with short black hair in pajamas, sitting up in her bed looking amazed. The bedroom door glows with magical rainbow colors. Oscar the solid grey Scottish Fold cat is on the bed looking curious. Sparkles fill the air."
+    },
+    {
+      "pageNumber": 6,
+      "type": "story",
+      "englishText": "'Meow?' said Oscar, tilting his fuzzy head. 'Door?' said Allie, pointing at the pretty lights.",
+      "chineseText": "「喵？」奥斯卡歪着毛茸茸的头说。「门？」艾丽指着漂亮的灯光说。",
+      "chinesePinyin": "Miāo? Àosīkǎ wāizhe máoróngrong de tóu shuō. Mén? Ài Lì zhǐzhe piàoliang de dēngguāng shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie and Oscar looking at each other with curious expressions. Allie, a toddler with short black hair, is pointing at a glowing door. Oscar, a solid grey Scottish Fold cat with folded ears, has his head tilted adorably. Question marks float above them. Warm morning light fills the scene."
+    },
+    {
+      "pageNumber": 7,
+      "type": "story",
+      "englishText": "The first door was red like carrots. Allie toddled over and said, 'Door open!'",
+      "chineseText": "第一扇门是红色的，像胡萝卜一样。艾丽走过去说：「门开！」",
+      "chinesePinyin": "Dì yī shàn mén shì hóngsè de, xiàng húluóbo yīyàng. Ài Lì zǒu guòqù shuō: Mén kāi!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a cheerful toddler with short black hair wearing colorful clothes, reaching toward a glowing red-orange door. Oscar the solid grey Scottish Fold cat follows behind her. The door has carrot-shaped decorations and emanates warm orange light."
+    },
+    {
+      "pageNumber": 8,
+      "type": "story",
+      "englishText": "WHOOSH! Behind the door was a garden full of the biggest, crunchiest carrots she'd ever seen!",
+      "chineseText": "哗！门后面是一个花园，里面满是她见过的最大、最脆的胡萝卜！",
+      "chinesePinyin": "Huā! Mén hòumiàn shì yīgè huāyuán, lǐmiàn mǎn shì tā jiànguò de zuì dà, zuì cuì de húluóbo!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a magical carrot garden viewed through an open doorway. Giant colorful carrots grow in rows - orange, purple, and rainbow-striped carrots that sparkle. Allie, a toddler with short black hair, and Oscar the grey cat stand at the doorway looking amazed. Butterflies and ladybugs fly around."
+    },
+    {
+      "pageNumber": 9,
+      "type": "story",
+      "englishText": "'Yum!' said Allie, taking a big bite of a rainbow carrot. It tasted like sunshine!",
+      "chineseText": "「好吃！」艾丽咬了一大口彩虹胡萝卜。它尝起来像阳光一样！",
+      "chinesePinyin": "Hǎo chī! Ài Lì yǎo le yī dà kǒu cǎihóng húluóbo. Tā cháng qǐlái xiàng yángguāng yīyàng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a cheerful toddler with short black hair, happily eating a sparkly rainbow carrot. Her eyes are closed in delight. Oscar the solid grey Scottish Fold cat rubs against her leg purring. The magical garden surrounds them with colorful vegetables."
+    },
+    {
+      "pageNumber": 10,
+      "type": "story",
+      "englishText": "The second door was blue like the sky. 'Door open!' giggled Allie.",
+      "chineseText": "第二扇门是蓝色的，像天空一样。「门开！」艾丽咯咯笑着说。",
+      "chinesePinyin": "Dì èr shàn mén shì lánsè de, xiàng tiānkōng yīyàng. Mén kāi! Ài Lì gēgē xiàozhe shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, giggling and reaching for a glowing blue door decorated with clouds and stars. Oscar the solid grey Scottish Fold cat sits beside her looking up curiously. The door glows with soft blue magical light."
+    },
+    {
+      "pageNumber": 11,
+      "type": "story",
+      "englishText": "Inside was a room full of floating bubbles! Each bubble had a special picture inside.",
+      "chineseText": "里面是一个满是漂浮泡泡的房间！每个泡泡里面都有一张特别的照片。",
+      "chinesePinyin": "Lǐmiàn shì yīgè mǎn shì piāofú pàopào de fángjiān! Měi gè pàopào lǐmiàn dōu yǒu yī zhāng tèbié de zhàopiàn.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a magical room filled with floating iridescent bubbles. Each bubble contains a tiny image - one shows Lu with ladybugs, one shows Peter at his computer, one shows baby Allie taking first steps. Allie and Oscar stand in wonder looking at the bubbles. Soft blue light fills the scene."
+    },
+    {
+      "pageNumber": 12,
+      "type": "story",
+      "englishText": "'I see Mommy! I see Daddy! I see me!' said Allie, pointing at the bubbles.",
+      "chineseText": "「我看到妈妈！我看到爸爸！我看到我自己！」艾丽指着泡泡说。",
+      "chinesePinyin": "Wǒ kàn dào māma! Wǒ kàn dào bàba! Wǒ kàn dào wǒ zìjǐ! Ài Lì zhǐzhe pàopào shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, excitedly pointing at three large bubbles. One bubble shows Lu (petite Asian woman with black hair), one shows Peter (tall blonde man), and one shows baby Allie. Oscar the grey cat tries to paw at a bubble. The scene is magical and warm."
+    },
+    {
+      "pageNumber": 13,
+      "type": "story",
+      "englishText": "The third door was yellow like the sun. When it opened, out flew a hundred Llama Llama books!",
+      "chineseText": "第三扇门是黄色的，像太阳一样。门开后，飞出来一百本《小羊驼》书！",
+      "chinesePinyin": "Dì sān shàn mén shì huángsè de, xiàng tàiyáng yīyàng. Mén kāi hòu, fēi chūlái yībǎi běn Xiǎo Yángtuó shū!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a yellow glowing door bursting open with colorful books flying out. The books have llama characters on their covers. Allie, a toddler with short black hair, and Oscar the solid grey cat watch in amazement as books swirl around them. Bright yellow sunshine streams through."
+    },
+    {
+      "pageNumber": 14,
+      "type": "story",
+      "englishText": "The llamas jumped off the pages and danced around the room! 'Llama! Llama!' laughed Allie.",
+      "chineseText": "小羊驼们从书页上跳下来，在房间里跳舞！「小羊驼！小羊驼！」艾丽笑着说。",
+      "chinesePinyin": "Xiǎo yángtuó men cóng shūyè shàng tiào xiàlái, zài fángjiān lǐ tiàowǔ! Xiǎo yángtuó! Xiǎo yángtuó! Ài Lì xiàozhe shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of cartoon llamas dancing around a living room. Allie, a cheerful toddler with short black hair, claps her hands with joy. Oscar the solid grey Scottish Fold cat tries to catch a dancing llama with his paw. Musical notes and sparkles fill the air. The scene is joyful and playful."
+    },
+    {
+      "pageNumber": 15,
+      "type": "story",
+      "englishText": "The fourth door was green like spring grass. Behind it was the softest, coziest nap room ever!",
+      "chineseText": "第四扇门是绿色的，像春天的草地。门后面是世界上最柔软、最舒服的午睡房间！",
+      "chinesePinyin": "Dì sì shàn mén shì lǜsè de, xiàng chūntiān de cǎodì. Mén hòumiàn shì shìjiè shàng zuì róuruǎn, zuì shūfú de wǔshuì fángjiān!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a magical green door opening to reveal the coziest room imaginable. Cloud-shaped pillows float in the air, blankets made of soft light drape everywhere. Stars and moons glow gently on the ceiling. The scene is peaceful and dreamlike with soft green tones."
+    },
+    {
+      "pageNumber": 16,
+      "type": "story",
+      "englishText": "The clouds were pillows and the blanket was made of sweet dreams. Even Oscar yawned!",
+      "chineseText": "云朵是枕头，毯子是美梦做的。连奥斯卡都打哈欠了！",
+      "chinesePinyin": "Yúnduǒ shì zhěntou, tǎnzi shì měimèng zuò de. Lián Àosīkǎ dōu dǎ hāqiàn le!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a sleepy toddler with short black hair, cuddling into a cloud pillow. Oscar the solid grey Scottish Fold cat yawns widely beside her. A blanket made of shimmering light covers them. The room glows with peaceful green and gold light. Stars twinkle above."
+    },
+    {
+      "pageNumber": 17,
+      "type": "story",
+      "englishText": "The last door was the most special. It was every color at once, swirling like a rainbow!",
+      "chineseText": "最后一扇门是最特别的。它是所有颜色的集合，像彩虹一样旋转！",
+      "chinesePinyin": "Zuìhòu yī shàn mén shì zuì tèbié de. Tā shì suǒyǒu yánsè de jíhé, xiàng cǎihóng yīyàng xuánzhuǎn!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a magnificent rainbow door that swirls with every color imaginable. Allie, a toddler with short black hair, and Oscar the solid grey cat stand before it in wonder. The colors shift and dance like the northern lights. Sparkles and magic surround the door."
+    },
+    {
+      "pageNumber": 18,
+      "type": "story",
+      "englishText": "'Door open?' Allie asked Oscar. Together, they pushed it open and found... their own living room!",
+      "chineseText": "「门开？」艾丽问奥斯卡。他们一起推开门，发现了......自己的客厅！",
+      "chinesePinyin": "Mén kāi? Ài Lì wèn Àosīkǎ. Tāmen yīqǐ tuī kāi mén, fāxiàn le... zìjǐ de kètīng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, and Oscar the solid grey Scottish Fold cat pushing open the rainbow door together. Through the doorway, their cozy family living room is visible with warm light streaming in. Both look curious and excited."
+    },
+    {
+      "pageNumber": 19,
+      "type": "story",
+      "englishText": "But now Mommy and Daddy were there, with open arms! 'Welcome home from your adventure!' they said.",
+      "chineseText": "但是现在妈妈和爸爸都在那里，张开双臂！「欢迎从冒险回来！」他们说。",
+      "chinesePinyin": "Dànshì xiànzài māma hé bàba dōu zài nàlǐ, zhāngkāi shuāngbì! Huānyíng cóng màoxiǎn huílái! tāmen shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a family reunion. Peter, a tall lean blonde man, and Lu, a petite Asian woman with medium-length black hair, have their arms open wide with big smiles. Allie, a toddler with short black hair, runs toward them. Oscar the solid grey cat follows. The living room is warm and cozy with a ladybug decoration visible."
+    },
+    {
+      "pageNumber": 20,
+      "type": "ending",
+      "englishText": "'Door close!' said Allie happily, because sometimes the best magic is coming home to the people who love you. The End.",
+      "chineseText": "「门关！」艾丽开心地说，因为有时候最美的魔法就是回到爱你的人身边。完。",
+      "chinesePinyin": "Mén guān! Ài Lì kāixīn de shuō, yīnwèi yǒushíhòu zuì měi de mófǎ jiùshì huí dào ài nǐ de rén shēnbiān. Wán.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a family hug. Peter (tall blonde man), Lu (petite Asian woman with black hair), and Allie (toddler with short black hair) embrace warmly. Oscar the solid grey Scottish Fold cat curls up at their feet purring. The living room is cozy with warm golden light. A small ladybug sits on the windowsill. Hearts and sparkles float around them. Text at bottom says 'The End / 完'."
+    }
+  ]
+}

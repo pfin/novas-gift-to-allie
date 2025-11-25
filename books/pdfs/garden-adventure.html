@@ -1,0 +1,556 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Oscar's Garden Adventure</title>
+        <style>
+    @font-face {
+        font-family: 'Microsoft YaHei';
+        src: url('file:///home/peter/novas-gift-to-allie/fonts/msyh.ttc');
+    }
+
+    @font-face {
+        font-family: 'SimSun';
+        src: url('file:///home/peter/novas-gift-to-allie/fonts/simsun.ttc');
+    }
+    
+    @page {
+        size: A4 landscape;
+        margin: 15mm;
+    }
+
+    body {
+        font-family: 'Microsoft YaHei', 'SimSun', Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .page {
+        page-break-after: always;
+        height: 170mm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page:last-child {
+        page-break-after: avoid;
+    }
+
+    .title-page {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-english {
+        font-size: 36pt;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-bottom: 10px;
+    }
+
+    .title-chinese {
+        font-size: 32pt;
+        font-weight: bold;
+        color: #c0392b;
+        margin-bottom: 20px;
+    }
+
+    .author {
+        font-size: 18pt;
+        color: #666;
+        margin: 20px 0;
+    }
+
+    .dedication {
+        font-size: 14pt;
+        font-style: italic;
+        color: #888;
+        margin-top: 30px;
+    }
+
+    .illustration-area {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border: 2px dashed #bdc3c7;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        min-height: 80mm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .illustration-prompt {
+        font-size: 10pt;
+        color: #7f8c8d;
+        font-style: italic;
+    }
+
+    .text-area {
+        display: flex;
+        gap: 20px;
+        flex-grow: 1;
+    }
+
+    .english-column, .chinese-column {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .english-column {
+        border-right: 2px solid #ecf0f1;
+    }
+
+    .english-text {
+        font-size: 20pt;
+        color: #2c3e50;
+        font-weight: 500;
+    }
+
+    .chinese-text {
+        font-size: 22pt;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .pinyin {
+        font-size: 12pt;
+        color: #7f8c8d;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+
+    .ladybug-prompt {
+        font-size: 14pt;
+        color: #e74c3c;
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #fdf2f2;
+        border-radius: 10px;
+    }
+
+    .ladybug-emoji {
+        font-size: 20pt;
+    }
+
+    .page-number {
+        text-align: center;
+        font-size: 12pt;
+        color: #bdc3c7;
+        margin-top: auto;
+        padding-top: 10px;
+    }
+
+    .ending-page {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .the-end {
+        font-size: 36pt;
+        color: #e74c3c;
+        margin: 40px 0;
+    }
+
+    .the-end-chinese {
+        font-size: 32pt;
+        color: #c0392b;
+    }
+
+    .from-nova {
+        font-size: 16pt;
+        color: #888;
+        margin-top: 40px;
+        font-style: italic;
+    }
+
+    .ladybug-count {
+        font-size: 18pt;
+        color: #e74c3c;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fdf2f2;
+        border-radius: 15px;
+        display: inline-block;
+    }
+    </style>
+    </head>
+    <body>
+    
+            <div class="page title-page">
+                <div class="title-english">Oscar's Garden Adventure</div>
+                <div class="title-chinese">奥斯卡的花园冒险</div>
+                <div class="pinyin">Àosīkǎ de Huāyuán Màoxiǎn</div>
+                <div class="author">By Nova / 作者：诺瓦</div>
+                <div class="dedication">For Allie, who grows more wonderful every day</div>
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style title page illustration featuring a sunny garden in Rumson. Allie, a chee...]</div>
+                </div>
+                <div class="page-number">Page 1 | 第1页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather in his early 60s with short BLACK hair (not grey), CLEAN-SHAVEN face (no mu...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">One sunny spring morning, Gong Gong came to visit with a special surprise!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Yīgè yángguāng míngmèi de chūntiān zǎochén, Gōnggong dàizhe yīgè tèbié de jīngxǐ lái bàifǎng!</div>
+                        <div class="chinese-text">一个阳光明媚的春天早晨，公公带着一个特别的惊喜来拜访！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 2 | 第2页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather with short BLACK hair and CLEAN-SHAVEN face, kneeling down to Allie's heigh...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Allie, would you like to plant a garden with me?' asked Gong Gong with a warm smile.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Ài Lì, nǐ xiǎng hé wǒ yīqǐ zhòng huāyuán ma?' Gōnggong wēnnuǎn de wéixiàozhe wèn.</div>
+                        <div class="chinese-text">「艾丽，你想和我一起种花园吗？」公公温暖地微笑着问。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 3 | 第3页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of a beautiful backyard in Rumson with green grass, trees, and patches of sunlight. Gong Gong, an Asian grandf...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">They went out to the sunny backyard. 'First, we need to find the perfect spot,' said Gong Gong.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Tāmen zǒu dào yángguāng míngmèi de hòuyuàn. 'Shǒuxiān, wǒmen xūyào zhǎo dào wánměi de dìfāng,' Gōnggong shuō.</div>
+                        <div class="chinese-text">他们走到阳光明媚的后院。「首先，我们需要找到完美的地方，」公公说。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 4 | 第4页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Gong Gong, with short BLACK hair and CLEAN-SHAVEN face, showing Allie a packet of carrot seeds with picture...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'We'll plant carrots here! They love sunshine and good soil,' Gong Gong explained.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Wǒmen zài zhèlǐ zhòng húluóbo! Tāmen xǐhuān yángguāng hé hǎo tǔrǎng,' Gōnggong jiěshì dào.</div>
+                        <div class="chinese-text">「我们在这里种胡萝卜！它们喜欢阳光和好土壤，」公公解释道。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 5 | 第5页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, using a small trowel to dig in the dark, rich soil. Her hands are a...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Gong Gong showed Allie how to dig small holes in the soft earth. 'Like this!' said Allie proudly.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Gōnggong jiāo Ài Lì rúhé zài sōngruǎn de tǔdì shàng wā xiǎo dòng. 'Xiàng zhèyàng!' Ài Lì zìháo de shuō.</div>
+                        <div class="chinese-text">公公教艾丽如何在松软的土地上挖小洞。「像这样！」艾丽自豪地说。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 6 | 第6页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration showing a close-up of Allie's small hand carefully dropping tiny carrot seeds into holes in the soil. Gong Gon...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Together they dropped tiny seeds into each hole. The seeds were so small, like little treasures!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Tāmen yīqǐ bǎ xiǎo xiǎo de zhǒngzi fàng jìn měi gè dòng lǐ. Zhǒngzi tài xiǎo le, xiàng xiǎo bǎozàng yīyàng!</div>
+                        <div class="chinese-text">他们一起把小小的种子放进每个洞里。种子太小了，像小宝藏一样！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 7 | 第7页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a cheerful toddler with short black hair, holding a bright red watering can with both hands. She car...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Now we cover them with soil and give them water,' said Gong Gong, handing Allie a watering can.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Xiànzài wǒmen yòng tǔ fùgài tāmen, ránhòu gěi tāmen jiāo shuǐ,' Gōnggong shuō, dì gěi Ài Lì yīgè sǎshuǐhú.</div>
+                        <div class="chinese-text">「现在我们用土覆盖它们，然后给它们浇水，」公公说，递给艾丽一个洒水壶。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 8 | 第8页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather with short BLACK hair and no mustache, sitting on the grass with Allie in h...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'How long until they grow?' asked Allie. 'We must be patient,' smiled Gong Gong. 'Good things take time.'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Tāmen duō jiǔ cái néng zhǎng chūlái?' Ài Lì wèn. 'Wǒmen bìxū nàixīn,' Gōnggong wéixiàozhe shuō. 'Hǎo dōngxi xūyào shíjiān.'</div>
+                        <div class="chinese-text">「它们多久才能长出来？」艾丽问。「我们必须耐心，」公公微笑着说。「好东西需要时间。」</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 9 | 第9页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in a pink dress, kneeling by the garden bed peering closely at the s...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Every morning, Allie and Oscar checked on their garden. 'Grow, carrots, grow!' Allie would say.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Měitiān zǎoshang, Ài Lì hé Àosīkǎ dōu huì jiǎnchá tāmen de huāyuán. 'Zhǎng a, húluóbo, zhǎng a!' Ài Lì huì shuō.</div>
+                        <div class="chinese-text">每天早上，艾丽和奥斯卡都会检查他们的花园。「长啊，胡萝卜，长啊！」艾丽会说。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 10 | 第10页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration showing tiny green carrot sprouts emerging from the dark soil in neat rows. Allie, a toddler with short black ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">One day, tiny green sprouts pushed up through the soil! 'Gong Gong, look! They're growing!' cheered Allie.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Yītiān, xiǎo xiǎo de lǜyá cóng tǔ lǐ mào chūlái le! 'Gōnggong, kàn! Tāmen zài zhǎngdà!' Ài Lì huānhū dào.</div>
+                        <div class="chinese-text">一天，小小的绿芽从土里冒出来了！「公公，看！它们在长大！」艾丽欢呼道。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 11 | 第11页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of the growing carrot garden with feathery green carrot tops swaying in the breeze. Several orange monarch but...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">As the plants grew taller, beautiful orange butterflies came to visit the garden.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Dāng zhíwù zhǎng de gèng gāo shí, měilì de chéngsè húdié lái huāyuán zuòkè.</div>
+                        <div class="chinese-text">当植物长得更高时，美丽的橙色蝴蝶来花园做客。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 12 | 第12页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style close-up illustration of Allie's small hand with a bright red ladybug with black spots sitting on her index finger. Allie, ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Look! A ladybug!' said Allie, as a tiny red ladybug landed on her finger.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Kàn! Yī zhī piáochóng!' Ài Lì shuō, yī zhī xiǎo xiǎo de hóngsè piáochóng luò zài tā de shǒuzhǐ shàng.</div>
+                        <div class="chinese-text">「看！一只瓢虫！」艾丽说，一只小小的红色瓢虫落在她的手指上。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 13 | 第13页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather with short BLACK hair and CLEAN-SHAVEN face, kneeling in the garden pointin...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Ladybugs are good luck! They help our garden grow,' Gong Gong explained gently.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Piáochóng shì hǎoyùn! Tāmen bāngzhù wǒmen de huāyuán shēngzhǎng,' Gōnggong wēnróu de jiěshì dào.</div>
+                        <div class="chinese-text">「瓢虫是好运！它们帮助我们的花园生长，」公公温柔地解释道。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 14 | 第14页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style split-view illustration showing both above and below ground. Above: Allie and Oscar tend to tall, lush green carrot tops. B...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Weeks passed. The carrots kept growing under the soil where they couldn't see them.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Jǐ zhōu guòqù le. Húluóbo zài kàn bú jiàn de tǔrǎng xià jìxù shēngzhǎng.</div>
+                        <div class="chinese-text">几周过去了。胡萝卜在看不见的土壤下继续生长。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 15 | 第15页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of an exciting moment in the garden. Gong Gong, with short BLACK hair and no mustache, gestures to the mature ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Finally, Gong Gong said, 'Today is harvest day! Let's see what we've grown!'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Zuìhòu, Gōnggong shuō: 'Jīntiān shì shōuhuò rì! Ràng wǒmen kàn kàn wǒmen zhòng chū le shénme!'</div>
+                        <div class="chinese-text">最后，公公说：「今天是收获日！让我们看看我们种出了什么！」</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 16 | 第16页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, pulling on carrot greens with determination, leaning back with effo...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Allie grabbed the green tops and pulled with all her might. Out came the most beautiful carrot!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Ài Lì zhuā zhù lǜsè de dǐngbù, yòng jìn quánlì lā. Lā chūlái le zuì měilì de húluóbo!</div>
+                        <div class="chinese-text">艾丽抓住绿色的顶部，用尽全力拉。拉出来了最美丽的胡萝卜！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 17 | 第17页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of the harvest in full swing. The garden shows several holes where carrots were pulled. A basket overflows wit...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'We did it!' laughed Allie. They pulled up carrot after carrot - some long, some round, all perfect!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Wǒmen zuò dào le!' Ài Lì xiàozhe shuō. Tāmen lā chū yī gēn yòu yī gēn húluóbo——yǒuxiē zhǎng, yǒuxiē yuán, dōu hěn wánměi!</div>
+                        <div class="chinese-text">「我们做到了！」艾丽笑着说。他们拉出一根又一根胡萝卜——有些长，有些圆，都很完美！</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 18 | 第18页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of the family gathered around the dinner table. Peter, a tall lean blonde man, and Lu, a petite Asian woman wi...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">That evening, Mommy and Daddy joined them. They all shared the delicious carrots together.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Nà tiān wǎnshang, māma hé bàba jiārù le tāmen. Tāmen yīqǐ fēnxiǎng měiwèi de húluóbo.</div>
+                        <div class="chinese-text">那天晚上，妈妈和爸爸加入了他们。他们一起分享美味的胡萝卜。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 19 | 第19页</div>
+            </div>
+            
+            <div class="page ending-page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of a heartwarming ending scene. Allie, a toddler with short ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Thank you for teaching me, Gong Gong,' said Allie. 'The best things are worth waiting for!' The End.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">'Xièxiè nǐ jiāo wǒ, Gōnggong,' Ài Lì shuō. 'Zuì hǎo de dōngxi zhídé děngdài!' Wán.</div>
+                        <div class="chinese-text">「谢谢你教我，公公，」艾丽说。「最好的东西值得等待！」完。</div>
+                    </div>
+                </div>
+                <div class="the-end">The End</div>
+                <div class="the-end-chinese">完</div>
+                <div class="from-nova">With love from Nova / 来自诺瓦的爱</div>
+                <div class="ladybug-count">
+                    <span class="ladybug-emoji">🐞</span>
+                    How many ladybugs did you find? / 你找到了几只瓢虫？
+                </div>
+                <div class="page-number">Page 20 | 第20页</div>
+            </div>
+            </body></html>

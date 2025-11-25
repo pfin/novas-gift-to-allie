@@ -1,0 +1,170 @@
+{
+  "id": "garden-adventure",
+  "titleEnglish": "Oscar's Garden Adventure",
+  "titleChinese": "奥斯卡的花园冒险",
+  "titlePinyin": "Àosīkǎ de Huāyuán Màoxiǎn",
+  "author": "Nova",
+  "dedicatedTo": "For Allie, who grows more wonderful every day",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "type": "title",
+      "englishText": "Oscar's Garden Adventure",
+      "chineseText": "奥斯卡的花园冒险",
+      "chinesePinyin": "Àosīkǎ de Huāyuán Màoxiǎn",
+      "illustrationPrompt": "A whimsical, cartoon-style title page illustration featuring a sunny garden in Rumson. Allie, a cheerful toddler with short black hair wearing a yellow sundress, stands holding a small watering can. Oscar, a fluffy solid grey Scottish Fold cat with folded ears and no patterns, sits beside her with a tiny gardening trowel. Gong Gong, an Asian grandfather in his early 60s with short BLACK hair (not grey), CLEAN-SHAVEN face (no mustache), no glasses, wearing casual gardening clothes, kneels behind them smiling. Butterflies and ladybugs flutter around carrot plants. The style is colorful, fluffy, and whimsical, suitable for a children's book cover."
+    },
+    {
+      "pageNumber": 2,
+      "type": "story",
+      "englishText": "One sunny spring morning, Gong Gong came to visit with a special surprise!",
+      "chineseText": "一个阳光明媚的春天早晨，公公带着一个特别的惊喜来拜访！",
+      "chinesePinyin": "Yīgè yángguāng míngmèi de chūntiān zǎochén, Gōnggong dàizhe yīgè tèbié de jīngxǐ lái bàifǎng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather in his early 60s with short BLACK hair (not grey), CLEAN-SHAVEN face (no mustache), no glasses, arriving at the front door carrying a small basket. The basket contains seed packets and a tiny trowel. Allie, a toddler with short black hair wearing colorful clothes, opens the door excitedly. Oscar the solid grey Scottish Fold cat peeks from behind her legs. A ladybug sits on a flower by the doorway. Warm morning sunlight fills the scene."
+    },
+    {
+      "pageNumber": 3,
+      "type": "story",
+      "englishText": "'Allie, would you like to plant a garden with me?' asked Gong Gong with a warm smile.",
+      "chineseText": "「艾丽，你想和我一起种花园吗？」公公温暖地微笑着问。",
+      "chinesePinyin": "'Ài Lì, nǐ xiǎng hé wǒ yīqǐ zhòng huāyuán ma?' Gōnggong wēnnuǎn de wéixiàozhe wèn.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather with short BLACK hair and CLEAN-SHAVEN face, kneeling down to Allie's height, holding a colorful seed packet. Allie, a cheerful toddler with short black hair, claps her hands with excitement. Oscar the solid grey cat rubs against Gong Gong's leg. The cozy living room background shows plants on the windowsill. The scene is warm and inviting."
+    },
+    {
+      "pageNumber": 4,
+      "type": "story",
+      "englishText": "They went out to the sunny backyard. 'First, we need to find the perfect spot,' said Gong Gong.",
+      "chineseText": "他们走到阳光明媚的后院。「首先，我们需要找到完美的地方，」公公说。",
+      "chinesePinyin": "Tāmen zǒu dào yángguāng míngmèi de hòuyuàn. 'Shǒuxiān, wǒmen xūyào zhǎo dào wánměi de dìfāng,' Gōnggong shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a beautiful backyard in Rumson with green grass, trees, and patches of sunlight. Gong Gong, an Asian grandfather with short BLACK hair and no mustache, points to a sunny spot. Allie, a toddler with short black hair in overalls, follows him holding his hand. Oscar the solid grey Scottish Fold cat explores the grass. Butterflies flutter by. A ladybug crawls on a leaf. The scene is bright and cheerful with dappled sunshine."
+    },
+    {
+      "pageNumber": 5,
+      "type": "story",
+      "englishText": "'We'll plant carrots here! They love sunshine and good soil,' Gong Gong explained.",
+      "chineseText": "「我们在这里种胡萝卜！它们喜欢阳光和好土壤，」公公解释道。",
+      "chinesePinyin": "'Wǒmen zài zhèlǐ zhòng húluóbo! Tāmen xǐhuān yángguāng hé hǎo tǔrǎng,' Gōnggong jiěshì dào.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Gong Gong, with short BLACK hair and CLEAN-SHAVEN face, showing Allie a packet of carrot seeds with pictures of orange carrots on it. Allie, a toddler with short black hair, looks at the seeds with wonder, touching the packet gently. Oscar the grey cat sniffs the soil curiously. Sun rays beam down on the chosen garden spot. The style is educational and warm."
+    },
+    {
+      "pageNumber": 6,
+      "type": "story",
+      "englishText": "Gong Gong showed Allie how to dig small holes in the soft earth. 'Like this!' said Allie proudly.",
+      "chineseText": "公公教艾丽如何在松软的土地上挖小洞。「像这样！」艾丽自豪地说。",
+      "chinesePinyin": "Gōnggong jiāo Ài Lì rúhé zài sōngruǎn de tǔdì shàng wā xiǎo dòng. 'Xiàng zhèyàng!' Ài Lì zìháo de shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, using a small trowel to dig in the dark, rich soil. Her hands are a little dirty and she's smiling proudly. Gong Gong, an Asian grandfather with short BLACK hair and no facial hair, kneels beside her demonstrating. Oscar the solid grey cat paws at a small pile of dirt playfully. Worms wiggle in the soil. The scene is hands-on and joyful."
+    },
+    {
+      "pageNumber": 7,
+      "type": "story",
+      "englishText": "Together they dropped tiny seeds into each hole. The seeds were so small, like little treasures!",
+      "chineseText": "他们一起把小小的种子放进每个洞里。种子太小了，像小宝藏一样！",
+      "chinesePinyin": "Tāmen yīqǐ bǎ xiǎo xiǎo de zhǒngzi fàng jìn měi gè dòng lǐ. Zhǒngzi tài xiǎo le, xiàng xiǎo bǎozàng yīyàng!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration showing a close-up of Allie's small hand carefully dropping tiny carrot seeds into holes in the soil. Gong Gong's larger hand guides hers gently. The seeds are shown enlarged in a magical sparkle to emphasize their importance. Oscar the grey cat watches intently. A ladybug observes from a nearby leaf. The style is detailed and magical, emphasizing the wonder of tiny seeds."
+    },
+    {
+      "pageNumber": 8,
+      "type": "story",
+      "englishText": "'Now we cover them with soil and give them water,' said Gong Gong, handing Allie a watering can.",
+      "chineseText": "「现在我们用土覆盖它们，然后给它们浇水，」公公说，递给艾丽一个洒水壶。",
+      "chinesePinyin": "'Xiànzài wǒmen yòng tǔ fùgài tāmen, ránhòu gěi tāmen jiāo shuǐ,' Gōnggong shuō, dì gěi Ài Lì yīgè sǎshuǐhú.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a cheerful toddler with short black hair, holding a bright red watering can with both hands. She carefully waters the freshly planted rows. Gong Gong, with short BLACK hair and CLEAN-SHAVEN face, watches with an encouraging smile. Oscar the solid grey cat tries to catch water droplets with his paw. Rainbows appear in the water spray. The garden bed shows neat rows of covered soil."
+    },
+    {
+      "pageNumber": 9,
+      "type": "story",
+      "englishText": "'How long until they grow?' asked Allie. 'We must be patient,' smiled Gong Gong. 'Good things take time.'",
+      "chineseText": "「它们多久才能长出来？」艾丽问。「我们必须耐心，」公公微笑着说。「好东西需要时间。」",
+      "chinesePinyin": "'Tāmen duō jiǔ cái néng zhǎng chūlái?' Ài Lì wèn. 'Wǒmen bìxū nàixīn,' Gōnggong wéixiàozhe shuō. 'Hǎo dōngxi xūyào shíjiān.'",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather with short BLACK hair and no mustache, sitting on the grass with Allie in his lap, both looking at the garden bed. He gestures to the soil with a wise, patient expression. Allie looks thoughtful, her finger on her chin. Oscar the grey cat sits beside them. The sun is setting, casting golden light. A butterfly lands nearby. The scene conveys wisdom and patience."
+    },
+    {
+      "pageNumber": 10,
+      "type": "story",
+      "englishText": "Every morning, Allie and Oscar checked on their garden. 'Grow, carrots, grow!' Allie would say.",
+      "chineseText": "每天早上，艾丽和奥斯卡都会检查他们的花园。「长啊，胡萝卜，长啊！」艾丽会说。",
+      "chinesePinyin": "Měitiān zǎoshang, Ài Lì hé Àosīkǎ dōu huì jiǎnchá tāmen de huāyuán. 'Zhǎng a, húluóbo, zhǎng a!' Ài Lì huì shuō.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in a pink dress, kneeling by the garden bed peering closely at the soil. Oscar the solid grey Scottish Fold cat sits beside her, also looking at the ground. The morning sun rises behind them. Dew sparkles on the grass. A ladybug crawls on a nearby stone. The scene is peaceful and hopeful, showing daily routine and anticipation."
+    },
+    {
+      "pageNumber": 11,
+      "type": "story",
+      "englishText": "One day, tiny green sprouts pushed up through the soil! 'Gong Gong, look! They're growing!' cheered Allie.",
+      "chineseText": "一天，小小的绿芽从土里冒出来了！「公公，看！它们在长大！」艾丽欢呼道。",
+      "chinesePinyin": "Yītiān, xiǎo xiǎo de lǜyá cóng tǔ lǐ mào chūlái le! 'Gōnggong, kàn! Tāmen zài zhǎngdà!' Ài Lì huānhū dào.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration showing tiny green carrot sprouts emerging from the dark soil in neat rows. Allie, a toddler with short black hair, points excitedly at them. Gong Gong, with short BLACK hair and CLEAN-SHAVEN face, smiles proudly beside her. Oscar the grey cat sniffs the baby plants gently. Sparkles and magical light surround the sprouts to show their miraculous appearance. The scene is joyful and triumphant."
+    },
+    {
+      "pageNumber": 12,
+      "type": "story",
+      "englishText": "As the plants grew taller, beautiful orange butterflies came to visit the garden.",
+      "chineseText": "当植物长得更高时，美丽的橙色蝴蝶来花园做客。",
+      "chinesePinyin": "Dāng zhíwù zhǎng de gèng gāo shí, měilì de chéngsè húdié lái huāyuán zuòkè.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of the growing carrot garden with feathery green carrot tops swaying in the breeze. Several orange monarch butterflies flutter around the plants. Allie, a toddler with short black hair, reaches up trying to touch a butterfly. Oscar the solid grey cat watches them with his tail swishing. Blue sky and fluffy clouds above. A ladybug rests on a carrot leaf. The scene is magical and full of life."
+    },
+    {
+      "pageNumber": 13,
+      "type": "story",
+      "englishText": "'Look! A ladybug!' said Allie, as a tiny red ladybug landed on her finger.",
+      "chineseText": "「看！一只瓢虫！」艾丽说，一只小小的红色瓢虫落在她的手指上。",
+      "chinesePinyin": "'Kàn! Yī zhī piáochóng!' Ài Lì shuō, yī zhī xiǎo xiǎo de hóngsè piáochóng luò zài tā de shǒuzhǐ shàng.",
+      "illustrationPrompt": "A whimsical, cartoon-style close-up illustration of Allie's small hand with a bright red ladybug with black spots sitting on her index finger. Allie, a toddler with short black hair, looks at it with wide, wonder-filled eyes. Her face is close to her hand, examining the ladybug carefully. Oscar the grey cat's face is also close, nose almost touching the bug. The background is soft focus garden greenery. The scene is intimate and magical."
+    },
+    {
+      "pageNumber": 14,
+      "type": "story",
+      "englishText": "'Ladybugs are good luck! They help our garden grow,' Gong Gong explained gently.",
+      "chineseText": "「瓢虫是好运！它们帮助我们的花园生长，」公公温柔地解释道。",
+      "chinesePinyin": "'Piáochóng shì hǎoyùn! Tāmen bāngzhù wǒmen de huāyuán shēngzhǎng,' Gōnggong wēnróu de jiěshì dào.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Gong Gong, an Asian grandfather with short BLACK hair and CLEAN-SHAVEN face, kneeling in the garden pointing to several ladybugs on the plants. Allie, a toddler with short black hair, listens with rapt attention. Oscar the grey cat has a ladybug on his head, looking cross-eyed at it. Other ladybugs crawl on leaves. The educational moment is warm and sweet. Soft afternoon light fills the scene."
+    },
+    {
+      "pageNumber": 15,
+      "type": "story",
+      "englishText": "Weeks passed. The carrots kept growing under the soil where they couldn't see them.",
+      "chineseText": "几周过去了。胡萝卜在看不见的土壤下继续生长。",
+      "chinesePinyin": "Jǐ zhōu guòqù le. Húluóbo zài kàn bú jiàn de tǔrǎng xià jìxù shēngzhǎng.",
+      "illustrationPrompt": "A whimsical, cartoon-style split-view illustration showing both above and below ground. Above: Allie and Oscar tend to tall, lush green carrot tops. Below ground (shown in cross-section): orange carrots are growing bigger underground, with tiny root hairs. The style makes the underground magical - glowing orange carrots with sparkles. The illustration teaches about hidden growth and patience."
+    },
+    {
+      "pageNumber": 16,
+      "type": "story",
+      "englishText": "Finally, Gong Gong said, 'Today is harvest day! Let's see what we've grown!'",
+      "chineseText": "最后，公公说：「今天是收获日！让我们看看我们种出了什么！」",
+      "chinesePinyin": "Zuìhòu, Gōnggong shuō: 'Jīntiān shì shōuhuò rì! Ràng wǒmen kàn kàn wǒmen zhòng chū le shénme!'",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of an exciting moment in the garden. Gong Gong, with short BLACK hair and no mustache, gestures to the mature carrot plants with enthusiasm. Allie, a toddler with short black hair, jumps up and down with excitement. Oscar the grey cat's tail is puffed up with excitement. The sun shines brightly. Butterflies and a ladybug watch. The anticipation is palpable in the scene."
+    },
+    {
+      "pageNumber": 17,
+      "type": "story",
+      "englishText": "Allie grabbed the green tops and pulled with all her might. Out came the most beautiful carrot!",
+      "chineseText": "艾丽抓住绿色的顶部，用尽全力拉。拉出来了最美丽的胡萝卜！",
+      "chinesePinyin": "Ài Lì zhuā zhù lǜsè de dǐngbù, yòng jìn quánlì lā. Lā chūlái le zuì měilì de húluóbo!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, pulling on carrot greens with determination, leaning back with effort. A huge, perfect, bright orange carrot emerges from the soil with dirt flying. Her face shows surprise and joy. Gong Gong, with BLACK hair and CLEAN-SHAVEN face, helps support her. Oscar the grey cat looks amazed. The moment is triumphant and magical with sparkles around the emerging carrot."
+    },
+    {
+      "pageNumber": 18,
+      "type": "story",
+      "englishText": "'We did it!' laughed Allie. They pulled up carrot after carrot - some long, some round, all perfect!",
+      "chineseText": "「我们做到了！」艾丽笑着说。他们拉出一根又一根胡萝卜——有些长，有些圆，都很完美！",
+      "chinesePinyin": "'Wǒmen zuò dào le!' Ài Lì xiàozhe shuō. Tāmen lā chū yī gēn yòu yī gēn húluóbo——yǒuxiē zhǎng, yǒuxiē yuán, dōu hěn wánměi!",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of the harvest in full swing. The garden shows several holes where carrots were pulled. A basket overflows with beautiful orange carrots of different sizes and shapes. Allie, with short black hair and dirty hands, holds up a carrot proudly. Gong Gong, with BLACK hair and no facial hair, wipes his brow with a smile. Oscar the grey cat sits in the basket among the carrots. Joy and accomplishment radiate from the scene."
+    },
+    {
+      "pageNumber": 19,
+      "type": "story",
+      "englishText": "That evening, Mommy and Daddy joined them. They all shared the delicious carrots together.",
+      "chineseText": "那天晚上，妈妈和爸爸加入了他们。他们一起分享美味的胡萝卜。",
+      "chinesePinyin": "Nà tiān wǎnshang, māma hé bàba jiārù le tāmen. Tāmen yīqǐ fēnxiǎng měiwèi de húluóbo.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of the family gathered around the dinner table. Peter, a tall lean blonde man, and Lu, a petite Asian woman with medium-length black hair, sit with Gong Gong (Asian grandfather with short BLACK hair, CLEAN-SHAVEN, no glasses), and Allie at a cozy dinner table. A big bowl of washed, cut carrots sits in the center with steam rising. Everyone is eating and smiling. Oscar the grey cat sits under the table hoping for a bite. Warm evening light fills the room. A ladybug decoration is visible on the wall."
+    },
+    {
+      "pageNumber": 20,
+      "type": "ending",
+      "englishText": "'Thank you for teaching me, Gong Gong,' said Allie. 'The best things are worth waiting for!' The End.",
+      "chineseText": "「谢谢你教我，公公，」艾丽说。「最好的东西值得等待！」完。",
+      "chinesePinyin": "'Xièxiè nǐ jiāo wǒ, Gōnggong,' Ài Lì shuō. 'Zuì hǎo de dōngxi zhídé děngdài!' Wán.",
+      "illustrationPrompt": "A whimsical, cartoon-style illustration of a heartwarming ending scene. Allie, a toddler with short black hair, gives Gong Gong (Asian grandfather with short BLACK hair, CLEAN-SHAVEN face, no glasses) a big hug. He hugs her back with eyes closed, smiling peacefully. In the background through the window, the garden is visible with new green growth beginning. Oscar the solid grey Scottish Fold cat curls up on a cushion. On the table, one perfect carrot sits in a vase like a flower. A ladybug sits on the windowsill. Golden sunset light fills the room. Hearts and gentle sparkles float around them. Text at bottom says 'The End / 完'."
+    }
+  ]
+}

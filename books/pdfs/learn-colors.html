@@ -1,0 +1,556 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Allie Learns Her Colors</title>
+        <style>
+    @font-face {
+        font-family: 'Microsoft YaHei';
+        src: url('file:///home/peter/novas-gift-to-allie/fonts/msyh.ttc');
+    }
+
+    @font-face {
+        font-family: 'SimSun';
+        src: url('file:///home/peter/novas-gift-to-allie/fonts/simsun.ttc');
+    }
+    
+    @page {
+        size: A4 landscape;
+        margin: 15mm;
+    }
+
+    body {
+        font-family: 'Microsoft YaHei', 'SimSun', Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .page {
+        page-break-after: always;
+        height: 170mm;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page:last-child {
+        page-break-after: avoid;
+    }
+
+    .title-page {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-english {
+        font-size: 36pt;
+        font-weight: bold;
+        color: #e74c3c;
+        margin-bottom: 10px;
+    }
+
+    .title-chinese {
+        font-size: 32pt;
+        font-weight: bold;
+        color: #c0392b;
+        margin-bottom: 20px;
+    }
+
+    .author {
+        font-size: 18pt;
+        color: #666;
+        margin: 20px 0;
+    }
+
+    .dedication {
+        font-size: 14pt;
+        font-style: italic;
+        color: #888;
+        margin-top: 30px;
+    }
+
+    .illustration-area {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        border: 2px dashed #bdc3c7;
+        border-radius: 10px;
+        padding: 15px;
+        margin-bottom: 15px;
+        text-align: center;
+        min-height: 80mm;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .illustration-prompt {
+        font-size: 10pt;
+        color: #7f8c8d;
+        font-style: italic;
+    }
+
+    .text-area {
+        display: flex;
+        gap: 20px;
+        flex-grow: 1;
+    }
+
+    .english-column, .chinese-column {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .english-column {
+        border-right: 2px solid #ecf0f1;
+    }
+
+    .english-text {
+        font-size: 20pt;
+        color: #2c3e50;
+        font-weight: 500;
+    }
+
+    .chinese-text {
+        font-size: 22pt;
+        color: #2c3e50;
+        font-weight: bold;
+    }
+
+    .pinyin {
+        font-size: 12pt;
+        color: #7f8c8d;
+        margin-bottom: 10px;
+        font-style: italic;
+    }
+
+    .ladybug-prompt {
+        font-size: 14pt;
+        color: #e74c3c;
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        background-color: #fdf2f2;
+        border-radius: 10px;
+    }
+
+    .ladybug-emoji {
+        font-size: 20pt;
+    }
+
+    .page-number {
+        text-align: center;
+        font-size: 12pt;
+        color: #bdc3c7;
+        margin-top: auto;
+        padding-top: 10px;
+    }
+
+    .ending-page {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .the-end {
+        font-size: 36pt;
+        color: #e74c3c;
+        margin: 40px 0;
+    }
+
+    .the-end-chinese {
+        font-size: 32pt;
+        color: #c0392b;
+    }
+
+    .from-nova {
+        font-size: 16pt;
+        color: #888;
+        margin-top: 40px;
+        font-style: italic;
+    }
+
+    .ladybug-count {
+        font-size: 18pt;
+        color: #e74c3c;
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #fdf2f2;
+        border-radius: 15px;
+        display: inline-block;
+    }
+    </style>
+    </head>
+    <body>
+    
+            <div class="page title-page">
+                <div class="title-english">Allie Learns Her Colors</div>
+                <div class="title-chinese">艾丽学颜色</div>
+                <div class="pinyin">Ài Lì Xué Yánsè</div>
+                <div class="author">By Nova / 作者：诺瓦</div>
+                <div class="dedication">For Allie, who makes the world more colorful every day</div>
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style title page featuring Allie, a cheerful toddler with short black hair wear...]</div>
+                </div>
+                <div class="page-number">Page 1 | 第1页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair in pajamas, sitting up in her colorful bedroom looking amazed. Her r...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">One bright morning, Allie looked around and noticed something special. Everything had colors!</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Yīgè míngliàng de zǎochén, Ài Lì huángù sìzhōu, zhùyì dào yīxiē tèbié de dōngxi. Měi yàng dōngxi dōu yǒu yánsè!</div>
+                        <div class="chinese-text">一个明亮的早晨，艾丽环顾四周，注意到一些特别的东西。每样东西都有颜色！</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 2 | 第2页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style close-up illustration of a beautiful red ladybug with black spots crawling on a window. Allie, a toddler with short black h...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Oscar, look!' said Allie. 'Red!' She pointed at the bright red ladybug crawling on her window.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Àosīkǎ, kàn!" Ài Lì shuō. "Hóngsè!" Tā zhǐzhe chuānghù shàng páxíng de xiānhóng piáochóng.</div>
+                        <div class="chinese-text">「奥斯卡，看！」艾丽说。「红色！」她指着窗户上爬行的鲜红瓢虫。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 3 | 第3页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Peter, a tall lean blonde man in his 40s wearing a casual shirt, cutting bright orange carrots at the kitch...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">In the kitchen, Daddy was cutting carrots. 'Red and orange!' said Allie.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Zài chúfáng lǐ, bàba zhèngzài qiē húluóbo. "Hóngsè hé chéngsè!" Ài Lì shuō.</div>
+                        <div class="chinese-text">在厨房里，爸爸正在切胡萝卜。「红色和橙色！」艾丽说。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 4 | 第4页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of a beautiful sunset seen through a large window. The sky is painted in brilliant shades of orange with some ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Through the window, the sunset painted the sky orange. 'Pretty orange sky!' Allie clapped.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Tòuguò chuānghù, rìluò bǎ tiānkōng rǎn chéng chéngsè. "Piàoliang de chéngsè tiānkōng!" Ài Lì pāishǒu shuō.</div>
+                        <div class="chinese-text">透过窗户，日落把天空染成橙色。「漂亮的橙色天空！」艾丽拍手说。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 5 | 第5页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration looking up at a brilliant yellow sun with happy rays radiating outward. Lu, a petite Asian woman with medium-l...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Look up!' said Mommy. The sun was bright yellow in the morning sky.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Táitóu kàn!" Māma shuō. Zǎochén de tiānkōng zhōng, tàiyáng shì míngliàng de huángsè.</div>
+                        <div class="chinese-text">「抬头看！」妈妈说。早晨的天空中，太阳是明亮的黄色。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 6 | 第6页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration split into two scenes: on the left, a bunch of bright yellow bananas on the kitchen counter; on the right, yel...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Yellow bananas! Yellow duckies in the bath!' Allie counted all the yellow things.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Huángsè de xiāngjiāo! Yùgāng lǐ huángsè de xiǎo yāzi!" Ài Lì shǔzhe suǒyǒu huángsè de dōngxi.</div>
+                        <div class="chinese-text">「黄色的香蕉！浴缸里黄色的小鸭子！」艾丽数着所有黄色的东西。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 7 | 第7页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair wearing a white dress with green polka dots, dancing joyfully on a l...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Outside, the grass was so green! 'Green, green grass!' sang Allie, dancing on the lawn.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Wàimiàn de cǎodì shì nàme lǜ! "Lǜsè, lǜsè de cǎo!" Ài Lì zài cǎopíng shàng tiàowǔ chànggē.</div>
+                        <div class="chinese-text">外面的草地是那么绿！「绿色，绿色的草！」艾丽在草坪上跳舞唱歌。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 8 | 第8页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style close-up illustration of Oscar, a solid grey Scottish Fold cat with folded ears, looking directly at the viewer. His eyes a...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Oscar's eyes sparkled green in the sunshine. 'Oscar has green eyes!' Allie giggled.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Àosīkǎ de yǎnjīng zài yángguāng xià shǎnyàozhe lǜsè. "Àosīkǎ yǒu lǜsè de yǎnjīng!" Ài Lì gēgē xiào.</div>
+                        <div class="chinese-text">奥斯卡的眼睛在阳光下闪耀着绿色。「奥斯卡有绿色的眼睛！」艾丽咯咯笑。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 9 | 第9页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of a beautiful clear blue sky with fluffy white clouds. Peter, a tall lean blonde man, holds Allie, a toddler ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'What color is the sky?' asked Daddy. 'Blue!' shouted Allie, pointing up.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Tiānkōng shì shénme yánsè?" Bàba wèn. "Lánsè!" Ài Lì dà hǎn, zhǐ xiàng tiānkōng.</div>
+                        <div class="chinese-text">「天空是什么颜色？」爸爸问。「蓝色！」艾丽大喊，指向天空。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 10 | 第10页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of a snack table with a blue bowl full of plump blueberries, a blue cup with water, and a blue plate. Lu, a pe...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">At snack time, Mommy brought blueberries and blue water in a blue cup. 'All blue!' laughed Allie.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Diǎnxīn shíjiān, māma dàilái le lánméi hé lánsè bēizi lǐ de lánsè shuǐ. "Dōu shì lánsè!" Ài Lì xiàozhe shuō.</div>
+                        <div class="chinese-text">点心时间，妈妈带来了蓝莓和蓝色杯子里的蓝色水。「都是蓝色！」艾丽笑着说。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 11 | 第11页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of a beautiful flower garden with vibrant purple flowers - lavender, irises, and petunias swaying gently. Alli...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">In the garden, purple flowers swayed in the breeze. 'Purple! Like grapes!' said Allie.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Huāyuán lǐ, zǐsè de huāduǒ zài wēifēng zhōng yáoyè. "Zǐsè! Xiàng pútáo yīyàng!" Ài Lì shuō.</div>
+                        <div class="chinese-text">花园里，紫色的花朵在微风中摇曳。「紫色！像葡萄一样！」艾丽说。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 12 | 第12页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Lu, a petite Asian woman with black hair, offering a bowl of deep purple grapes to Allie, a toddler with sh...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Mommy brought fresh purple grapes. They were sweet and juicy! 'Yummy purple!' said Allie.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Māma dàilái le xīnxiān de zǐsè pútáo. Tāmen yòu tián yòu duō zhī! "Hǎo chī de zǐsè!" Ài Lì shuō.</div>
+                        <div class="chinese-text">妈妈带来了新鲜的紫色葡萄。它们又甜又多汁！「好吃的紫色！」艾丽说。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 13 | 第13页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of Allie, a toddler with short black hair, wearing a beautiful pink dress with little pink flowers on it. She ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'I want to wear pink!' said Allie. Mommy found a beautiful pink dress with flowers.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Wǒ xiǎng chuān fěnsè!" Ài Lì shuō. Māma zhǎodào le yī jiàn dài huā de piàoliang fěnsè liányīqún.</div>
+                        <div class="chinese-text">「我想穿粉色！」艾丽说。妈妈找到了一件带花的漂亮粉色连衣裙。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 14 | 第14页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration of beautiful pink roses blooming beside a front door. Allie, a toddler with short black hair in a pink dress, ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Pink flowers bloomed by the door. 'Pink roses! So pretty!' Allie smelled them gently.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Mén biān kāizhe fěnsè de huāduǒ. "Fěnsè de méiguī! Hǎo piàoliang!" Ài Lì qīngqīng de wénzhe tāmen.</div>
+                        <div class="chinese-text">门边开着粉色的花朵。「粉色的玫瑰！好漂亮！」艾丽轻轻地闻着它们。</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 15 | 第15页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style illustration looking up at fluffy white clouds in a bright blue sky. The clouds are pure WHITE and shaped like animals - a ...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'Look up at the clouds!' said Daddy. 'They're white like cotton!'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Táitóu kàn yún!" Bàba shuō. "Tāmen xiàng miánhuā yīyàng shì báisè de!"</div>
+                        <div class="chinese-text">「抬头看云！」爸爸说。「它们像棉花一样是白色的！」</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 16 | 第16页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style close-up illustration of Oscar, a solid grey Scottish Fold cat with folded ears. The illustration emphasizes his WHITE whis...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">Oscar's whiskers were white! His paws were white! 'White like snow!' giggled Allie.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Àosīkǎ de húxū shì báisè de! Tā de zhuǎzi shì báisè de! "Xiàng xuě yīyàng bái!" Ài Lì gēgē xiào.</div>
+                        <div class="chinese-text">奥斯卡的胡须是白色的！他的爪子是白色的！「像雪一样白！」艾丽咯咯笑。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 17 | 第17页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style portrait illustration featuring Oscar, a magnificent solid grey Scottish Fold cat with folded ears, as the star. His GREY f...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'What color is Oscar?' asked Mommy. Allie looked carefully. 'Grey! Oscar is grey!'</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Àosīkǎ shì shénme yánsè?" Māma wèn. Ài Lì zǐxì de kàn. "Huīsè! Àosīkǎ shì huīsè de!"</div>
+                        <div class="chinese-text">「奥斯卡是什么颜色？」妈妈问。艾丽仔细地看。「灰色！奥斯卡是灰色的！」</div>
+                    </div>
+                </div>
+                
+                <div class="ladybug-prompt">
+                    <span class="ladybug-emoji">🐞</span>
+                    Find the ladybug! / 找找瓢虫！
+                </div>
+                
+                <div class="page-number">Page 18 | 第18页</div>
+            </div>
+            
+            <div class="page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style tender moment showing Allie, a toddler with short black hair, giving Oscar, a solid grey Scottish Fold cat, a gentle kiss o...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">'I love grey!' said Allie, kissing Oscar's fuzzy grey head. Oscar purred happily.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">"Wǒ ài huīsè!" Ài Lì shuō, qīnwěn Àosīkǎ máoróngrong de huīsè tóu. Àosīkǎ kāixīn de fāchū hūlū shēng.</div>
+                        <div class="chinese-text">「我爱灰色！」艾丽说，亲吻奥斯卡毛茸茸的灰色头。奥斯卡开心地发出呼噜声。</div>
+                    </div>
+                </div>
+                
+                <div class="page-number">Page 19 | 第19页</div>
+            </div>
+            
+            <div class="page ending-page">
+                <div class="illustration-area">
+                    <div class="illustration-prompt">[Illustration: A whimsical, cartoon-style celebration illustration showing a magnificent rainbow arching across the...]</div>
+                </div>
+                <div class="text-area">
+                    <div class="english-column">
+                        <div class="english-text">That night, a rainbow appeared after the rain. 'All the colors together!' Allie clapped. She had learned her colors, and the world was more beautiful than ever. The End.</div>
+                    </div>
+                    <div class="chinese-column">
+                        <div class="pinyin">Nà tiān wǎnshàng, yǔ hòu chūxiàn le cǎihóng. "Suǒyǒu de yánsè zài yīqǐ!" Ài Lì pāishǒu. Tā xuéhuì le yánsè, shìjiè bǐ wǎngcháng rènhé shíhòu dōu gèng měilì. Wán.</div>
+                        <div class="chinese-text">那天晚上，雨后出现了彩虹。「所有的颜色在一起！」艾丽拍手。她学会了颜色，世界比以往任何时候都更美丽。完。</div>
+                    </div>
+                </div>
+                <div class="the-end">The End</div>
+                <div class="the-end-chinese">完</div>
+                <div class="from-nova">With love from Nova / 来自诺瓦的爱</div>
+                <div class="ladybug-count">
+                    <span class="ladybug-emoji">🐞</span>
+                    How many ladybugs did you find? / 你找到了几只瓢虫？
+                </div>
+                <div class="page-number">Page 20 | 第20页</div>
+            </div>
+            </body></html>
